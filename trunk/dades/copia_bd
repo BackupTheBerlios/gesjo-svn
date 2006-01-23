@@ -1,0 +1,740 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Started on 2006-01-13 20:40:13 CET
+
+SET client_encoding = 'UNICODE';
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+--
+-- TOC entry 1567 (class 0 OID 0)
+-- Dependencies: 4
+-- Name: SCHEMA public; Type: COMMENT; Schema: -; Owner: postgres
+--
+
+COMMENT ON SCHEMA public IS 'Standard public schema';
+
+
+SET search_path = public, pg_catalog;
+
+--
+-- TOC entry 252 (class 1247 OID 33632)
+-- Dependencies: 4
+-- Name: dm_codipostal; Type: DOMAIN; Schema: public; Owner: postgres
+--
+
+CREATE DOMAIN dm_codipostal AS numeric(5,0);
+
+
+ALTER DOMAIN public.dm_codipostal OWNER TO postgres;
+
+--
+-- TOC entry 273 (class 1247 OID 33726)
+-- Dependencies: 4
+-- Name: dm_descripcio; Type: DOMAIN; Schema: public; Owner: josep
+--
+
+CREATE DOMAIN dm_descripcio AS character varying(150);
+
+
+ALTER DOMAIN public.dm_descripcio OWNER TO josep;
+
+--
+-- TOC entry 250 (class 1247 OID 33630)
+-- Dependencies: 4
+-- Name: dm_direccio; Type: DOMAIN; Schema: public; Owner: postgres
+--
+
+CREATE DOMAIN dm_direccio AS character varying(64);
+
+
+ALTER DOMAIN public.dm_direccio OWNER TO postgres;
+
+--
+-- TOC entry 245 (class 1247 OID 33625)
+-- Dependencies: 4
+-- Name: dm_email; Type: DOMAIN; Schema: public; Owner: postgres
+--
+
+CREATE DOMAIN dm_email AS character varying(128);
+
+
+ALTER DOMAIN public.dm_email OWNER TO postgres;
+
+--
+-- TOC entry 281 (class 1247 OID 33969)
+-- Dependencies: 282 4
+-- Name: dm_estat; Type: DOMAIN; Schema: public; Owner: josep
+--
+
+CREATE DOMAIN dm_estat AS character varying(20) NOT NULL DEFAULT 'Desconegut'::character varying
+	CONSTRAINT dm_estat_check CHECK ((((((((((VALUE)::text = 'Desconegut'::text) OR ((VALUE)::text = 'Iniciat'::text)) OR ((VALUE)::text = 'Enviat'::text)) OR ((VALUE)::text = 'Retornat'::text)) OR ((VALUE)::text = 'Rebut'::text)) OR ((VALUE)::text = 'Entregat'::text)) OR ((VALUE)::text = 'Cobrat'::text)) OR ((VALUE)::text = 'Facturat'::text)));
+
+
+ALTER DOMAIN public.dm_estat OWNER TO josep;
+
+--
+-- TOC entry 284 (class 1247 OID 33982)
+-- Dependencies: 285 4
+-- Name: dm_estat_factura; Type: DOMAIN; Schema: public; Owner: josep
+--
+
+CREATE DOMAIN dm_estat_factura AS character varying(20) NOT NULL DEFAULT 'Desconegut'::character varying
+	CONSTRAINT dm_estat_factura_check CHECK (((((VALUE)::text = 'Desconegut'::text) OR ((VALUE)::text = 'Cobrat'::text)) OR ((VALUE)::text = 'Facturat'::text)));
+
+
+ALTER DOMAIN public.dm_estat_factura OWNER TO josep;
+
+--
+-- TOC entry 277 (class 1247 OID 33946)
+-- Dependencies: 4
+-- Name: dm_id_prova; Type: DOMAIN; Schema: public; Owner: josep
+--
+
+CREATE DOMAIN dm_id_prova AS bigint NOT NULL DEFAULT nextval('prova_inc_seq'::text);
+
+
+ALTER DOMAIN public.dm_id_prova OWNER TO josep;
+
+--
+-- TOC entry 243 (class 1247 OID 33623)
+-- Dependencies: 4
+-- Name: dm_id_ref; Type: DOMAIN; Schema: public; Owner: postgres
+--
+
+CREATE DOMAIN dm_id_ref AS bigint;
+
+
+ALTER DOMAIN public.dm_id_ref OWNER TO postgres;
+
+--
+-- TOC entry 249 (class 1247 OID 33629)
+-- Dependencies: 4
+-- Name: dm_llinatges; Type: DOMAIN; Schema: public; Owner: postgres
+--
+
+CREATE DOMAIN dm_llinatges AS character varying(64);
+
+
+ALTER DOMAIN public.dm_llinatges OWNER TO postgres;
+
+--
+-- TOC entry 267 (class 1247 OID 33633)
+-- Dependencies: 4
+-- Name: dm_moneda; Type: DOMAIN; Schema: public; Owner: josep
+--
+
+CREATE DOMAIN dm_moneda AS numeric(5,3);
+
+
+ALTER DOMAIN public.dm_moneda OWNER TO josep;
+
+--
+-- TOC entry 269 (class 1247 OID 33705)
+-- Dependencies: 4
+-- Name: dm_nif; Type: DOMAIN; Schema: public; Owner: josep
+--
+
+CREATE DOMAIN dm_nif AS character(10);
+
+
+ALTER DOMAIN public.dm_nif OWNER TO josep;
+
+--
+-- TOC entry 248 (class 1247 OID 33628)
+-- Dependencies: 4
+-- Name: dm_nom; Type: DOMAIN; Schema: public; Owner: postgres
+--
+
+CREATE DOMAIN dm_nom AS character varying(32);
+
+
+ALTER DOMAIN public.dm_nom OWNER TO postgres;
+
+--
+-- TOC entry 247 (class 1247 OID 33627)
+-- Dependencies: 4
+-- Name: dm_notes; Type: DOMAIN; Schema: public; Owner: postgres
+--
+
+CREATE DOMAIN dm_notes AS character varying(2048);
+
+
+ALTER DOMAIN public.dm_notes OWNER TO postgres;
+
+--
+-- TOC entry 268 (class 1247 OID 33700)
+-- Dependencies: 4
+-- Name: dm_pais; Type: DOMAIN; Schema: public; Owner: josep
+--
+
+CREATE DOMAIN dm_pais AS character varying(30);
+
+
+ALTER DOMAIN public.dm_pais OWNER TO josep;
+
+--
+-- TOC entry 279 (class 1247 OID 33957)
+-- Dependencies: 4
+-- Name: dm_pes_grams; Type: DOMAIN; Schema: public; Owner: josep
+--
+
+CREATE DOMAIN dm_pes_grams AS numeric(10,3);
+
+
+ALTER DOMAIN public.dm_pes_grams OWNER TO josep;
+
+--
+-- TOC entry 280 (class 1247 OID 33958)
+-- Dependencies: 4
+-- Name: dm_pes_quilats; Type: DOMAIN; Schema: public; Owner: josep
+--
+
+CREATE DOMAIN dm_pes_quilats AS numeric(12,5);
+
+
+ALTER DOMAIN public.dm_pes_quilats OWNER TO josep;
+
+--
+-- TOC entry 251 (class 1247 OID 33631)
+-- Dependencies: 4
+-- Name: dm_poblacio; Type: DOMAIN; Schema: public; Owner: postgres
+--
+
+CREATE DOMAIN dm_poblacio AS character varying(20);
+
+
+ALTER DOMAIN public.dm_poblacio OWNER TO postgres;
+
+--
+-- TOC entry 244 (class 1247 OID 33624)
+-- Dependencies: 4
+-- Name: dm_tel; Type: DOMAIN; Schema: public; Owner: postgres
+--
+
+CREATE DOMAIN dm_tel AS numeric(13,0);
+
+
+ALTER DOMAIN public.dm_tel OWNER TO postgres;
+
+--
+-- TOC entry 270 (class 1247 OID 33706)
+-- Dependencies: 4
+-- Name: dm_url; Type: DOMAIN; Schema: public; Owner: josep
+--
+
+CREATE DOMAIN dm_url AS character varying(250);
+
+
+ALTER DOMAIN public.dm_url OWNER TO josep;
+
+--
+-- TOC entry 246 (class 1247 OID 33626)
+-- Dependencies: 4
+-- Name: dm_web; Type: DOMAIN; Schema: public; Owner: postgres
+--
+
+CREATE DOMAIN dm_web AS character varying(255);
+
+
+ALTER DOMAIN public.dm_web OWNER TO postgres;
+
+SET default_tablespace = '';
+
+SET default_with_oids = true;
+
+--
+-- TOC entry 1210 (class 1259 OID 33680)
+-- Dependencies: 1533 243 243 267 267 247 4 247 247 248 279 280 281
+-- Name: arreglo; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE arreglo (
+    id bigserial NOT NULL,
+    client_id dm_id_ref NOT NULL,
+    model character varying(80),
+    data_entrada date,
+    data_sortida date,
+    data_tornada date,
+    data_entrega date,
+    mecanic_id dm_id_ref,
+    cost dm_moneda,
+    pvp dm_moneda,
+    notes dm_notes,
+    treball dm_notes,
+    reparacio dm_notes,
+    marca dm_nom,
+    gra_fl dm_pes_grams,
+    kts_fl dm_pes_quilats,
+    estat dm_estat
+);
+
+
+ALTER TABLE public.arreglo OWNER TO postgres;
+
+--
+-- TOC entry 1569 (class 0 OID 0)
+-- Dependencies: 1209
+-- Name: arreglo_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval(pg_catalog.pg_get_serial_sequence('arreglo', 'id'), 5, true);
+
+
+--
+-- TOC entry 1202 (class 1259 OID 33636)
+-- Dependencies: 1529 248 249 250 250 251 252 244 244 245 247 4 268 269
+-- Name: client; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE client (
+    id bigserial NOT NULL,
+    nom dm_nom,
+    llinatges dm_llinatges,
+    direccio1 dm_direccio,
+    direccio2 dm_direccio,
+    poblacio dm_poblacio,
+    codipostal dm_codipostal,
+    telefon dm_tel,
+    mobil dm_tel,
+    email dm_email,
+    notes dm_notes,
+    pais dm_pais,
+    nif dm_nif
+);
+
+
+ALTER TABLE public.client OWNER TO postgres;
+
+--
+-- TOC entry 1570 (class 0 OID 0)
+-- Dependencies: 1201
+-- Name: client_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval(pg_catalog.pg_get_serial_sequence('client', 'id'), 4, true);
+
+
+--
+-- TOC entry 1212 (class 1259 OID 33714)
+-- Dependencies: 1534 243 248 250 250 251 252 268 267 267 267 267 247 4 284 244 244 269
+-- Name: factura; Type: TABLE; Schema: public; Owner: josep; Tablespace: 
+--
+
+CREATE TABLE factura (
+    id bigserial NOT NULL,
+    client_id dm_id_ref NOT NULL,
+    data_factura date NOT NULL,
+    nomsocial dm_nom NOT NULL,
+    direccio1 dm_direccio,
+    direccio2 dm_direccio,
+    poblacio dm_poblacio,
+    codipostal dm_codipostal,
+    pais dm_pais,
+    import dm_moneda,
+    iva dm_moneda,
+    descompte dm_moneda,
+    total dm_moneda,
+    notes dm_notes,
+    estat_factura dm_estat_factura,
+    telefon dm_tel,
+    mobil dm_tel,
+    nif dm_nif
+);
+
+
+ALTER TABLE public.factura OWNER TO josep;
+
+--
+-- TOC entry 1571 (class 0 OID 0)
+-- Dependencies: 1211
+-- Name: factura_id_seq; Type: SEQUENCE SET; Schema: public; Owner: josep
+--
+
+SELECT pg_catalog.setval(pg_catalog.pg_get_serial_sequence('factura', 'id'), 1, true);
+
+
+--
+-- TOC entry 1214 (class 1259 OID 33729)
+-- Dependencies: 1535 243 243 273 267 4
+-- Name: linia_factura; Type: TABLE; Schema: public; Owner: josep; Tablespace: 
+--
+
+CREATE TABLE linia_factura (
+    factura_id dm_id_ref NOT NULL,
+    linia bigserial NOT NULL,
+    article_id dm_id_ref NOT NULL,
+    descripcio dm_descripcio NOT NULL,
+    import dm_moneda
+);
+
+
+ALTER TABLE public.linia_factura OWNER TO josep;
+
+--
+-- TOC entry 1572 (class 0 OID 0)
+-- Dependencies: 1213
+-- Name: linia_factura_linia_seq; Type: SEQUENCE SET; Schema: public; Owner: josep
+--
+
+SELECT pg_catalog.setval(pg_catalog.pg_get_serial_sequence('linia_factura', 'linia'), 1, false);
+
+
+--
+-- TOC entry 1204 (class 1259 OID 33646)
+-- Dependencies: 1530 248 4 250 250 251 252 244 244 245 247 270 268
+-- Name: marca; Type: TABLE; Schema: public; Owner: josep; Tablespace: 
+--
+
+CREATE TABLE marca (
+    id bigserial NOT NULL,
+    nom dm_nom,
+    direccio1 dm_direccio,
+    direccio2 dm_direccio,
+    poblacio dm_poblacio,
+    codipostal dm_codipostal,
+    telefon dm_tel,
+    fax dm_tel,
+    email dm_email,
+    notes dm_notes,
+    url dm_url,
+    pais dm_pais
+);
+
+
+ALTER TABLE public.marca OWNER TO josep;
+
+--
+-- TOC entry 1573 (class 0 OID 0)
+-- Dependencies: 1203
+-- Name: marca_id_seq; Type: SEQUENCE SET; Schema: public; Owner: josep
+--
+
+SELECT pg_catalog.setval(pg_catalog.pg_get_serial_sequence('marca', 'id'), 4, true);
+
+
+--
+-- TOC entry 1208 (class 1259 OID 33666)
+-- Dependencies: 1532 248 244 243 4
+-- Name: mecanic; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE mecanic (
+    id bigserial NOT NULL,
+    nom dm_nom,
+    telefon dm_tel,
+    taller_id dm_id_ref
+);
+
+
+ALTER TABLE public.mecanic OWNER TO postgres;
+
+--
+-- TOC entry 1574 (class 0 OID 0)
+-- Dependencies: 1207
+-- Name: mecanic_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval(pg_catalog.pg_get_serial_sequence('mecanic', 'id'), 1, false);
+
+
+SET default_with_oids = false;
+
+--
+-- TOC entry 1200 (class 1259 OID 33618)
+-- Dependencies: 1528 4 277 273
+-- Name: prova; Type: TABLE; Schema: public; Owner: josep; Tablespace: 
+--
+
+CREATE TABLE prova (
+    inc dm_id_prova DEFAULT nextval('public.prova_inc_seq'::text) NOT NULL,
+    pp dm_descripcio
+);
+
+
+ALTER TABLE public.prova OWNER TO josep;
+
+SET default_with_oids = true;
+
+--
+-- TOC entry 1206 (class 1259 OID 33656)
+-- Dependencies: 1531 248 250 250 244 245 246 247 4
+-- Name: taller; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE taller (
+    id bigserial NOT NULL,
+    nom dm_nom,
+    direccio1 dm_direccio,
+    direccio2 dm_direccio,
+    telefon dm_tel,
+    email dm_email,
+    web dm_web,
+    notes dm_notes
+);
+
+
+ALTER TABLE public.taller OWNER TO postgres;
+
+--
+-- TOC entry 1575 (class 0 OID 0)
+-- Dependencies: 1205
+-- Name: taller_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval(pg_catalog.pg_get_serial_sequence('taller', 'id'), 1, false);
+
+
+--
+-- TOC entry 1562 (class 0 OID 33680)
+-- Dependencies: 1210
+-- Data for Name: arreglo; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO arreglo (id, client_id, model, data_entrada, data_sortida, data_tornada, data_entrega, mecanic_id, cost, pvp, notes, treball, reparacio, marca, gra_fl, kts_fl, estat) VALUES (5, 2, NULL, '0006-01-13', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'bnvbnvn', NULL, NULL, NULL, 'Enviat');
+INSERT INTO arreglo (id, client_id, model, data_entrada, data_sortida, data_tornada, data_entrega, mecanic_id, cost, pvp, notes, treball, reparacio, marca, gra_fl, kts_fl, estat) VALUES (2, 2, 'dwfsdf', '0006-01-01', NULL, NULL, '0006-01-27', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Desconegut');
+
+
+--
+-- TOC entry 1558 (class 0 OID 33636)
+-- Dependencies: 1202
+-- Data for Name: client; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO client (id, nom, llinatges, direccio1, direccio2, poblacio, codipostal, telefon, mobil, email, notes, pais, nif) VALUES (3, 'ggg', ' vvvvv', 'vhgvhg', NULL, 'bvnvnb', 1233, 43545, 546456, 'vbnvnbv', 'bnvnbv', 'nbvnbv', '1111      ');
+INSERT INTO client (id, nom, llinatges, direccio1, direccio2, poblacio, codipostal, telefon, mobil, email, notes, pais, nif) VALUES (2, 'jkljlk', 'kljlkj', 'lkjlkjl', 'lkjlk', 'jlkjlk', 2323, 123123, 123123, 'kljlkj', 'lkjlkjl', 'lkjlk', '1         ');
+
+
+--
+-- TOC entry 1563 (class 0 OID 33714)
+-- Dependencies: 1212
+-- Data for Name: factura; Type: TABLE DATA; Schema: public; Owner: josep
+--
+
+INSERT INTO factura (id, client_id, data_factura, nomsocial, direccio1, direccio2, poblacio, codipostal, pais, import, iva, descompte, total, notes, estat_factura, telefon, mobil, nif) VALUES (1, 3, '0006-06-01', ' vvvvv, ggg', 'vhgvhg', '0', 'bvnvnb', 1233, 'nbvnbv', NULL, NULL, NULL, NULL, NULL, 'Cobrat', 43545, 546456, '1111      ');
+
+
+--
+-- TOC entry 1564 (class 0 OID 33729)
+-- Dependencies: 1214
+-- Data for Name: linia_factura; Type: TABLE DATA; Schema: public; Owner: josep
+--
+
+
+
+--
+-- TOC entry 1559 (class 0 OID 33646)
+-- Dependencies: 1204
+-- Data for Name: marca; Type: TABLE DATA; Schema: public; Owner: josep
+--
+
+INSERT INTO marca (id, nom, direccio1, direccio2, poblacio, codipostal, telefon, fax, email, notes, url, pais) VALUES (1, 'tous', 'jklj', 'n,n,', 'n,n,', 2323, 21323, 2323, ',n,n,', ',n,n,', ',n,n', ',n,n');
+INSERT INTO marca (id, nom, direccio1, direccio2, poblacio, codipostal, telefon, fax, email, notes, url, pais) VALUES (2, 'fff', 'nnn', 'nnn', 'nnn', 222, 22, 22, 'nnn', 'nnn', 'nnn', 'nnn');
+
+
+--
+-- TOC entry 1561 (class 0 OID 33666)
+-- Dependencies: 1208
+-- Data for Name: mecanic; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- TOC entry 1557 (class 0 OID 33618)
+-- Dependencies: 1200
+-- Data for Name: prova; Type: TABLE DATA; Schema: public; Owner: josep
+--
+
+INSERT INTO prova (inc, pp) VALUES (1, NULL);
+INSERT INTO prova (inc, pp) VALUES (20, NULL);
+INSERT INTO prova (inc, pp) VALUES (4, NULL);
+INSERT INTO prova (inc, pp) VALUES (25, NULL);
+INSERT INTO prova (inc, pp) VALUES (7, NULL);
+INSERT INTO prova (inc, pp) VALUES (30, NULL);
+INSERT INTO prova (inc, pp) VALUES (6, NULL);
+INSERT INTO prova (inc, pp) VALUES (2, 'ssdsd');
+INSERT INTO prova (inc, pp) VALUES (3, 'sdsd');
+INSERT INTO prova (inc, pp) VALUES (31, 'sdsdfsfd');
+INSERT INTO prova (inc, pp) VALUES (32, 'sdfsdf');
+INSERT INTO prova (inc, pp) VALUES (33, 'tjj');
+INSERT INTO prova (inc, pp) VALUES (34, 'ghjghj');
+INSERT INTO prova (inc, pp) VALUES (35, 'gjghj');
+INSERT INTO prova (inc, pp) VALUES (36, 'ghjghj');
+INSERT INTO prova (inc, pp) VALUES (37, 'gfhfgh');
+
+
+--
+-- TOC entry 1560 (class 0 OID 33656)
+-- Dependencies: 1206
+-- Data for Name: taller; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
+-- TOC entry 1547 (class 16386 OID 33687)
+-- Dependencies: 1210 1210
+-- Name: arreglo_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY arreglo
+    ADD CONSTRAINT arreglo_pkey PRIMARY KEY (id);
+
+
+ALTER INDEX public.arreglo_pkey OWNER TO postgres;
+
+--
+-- TOC entry 1539 (class 16386 OID 33643)
+-- Dependencies: 1202 1202
+-- Name: client_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY client
+    ADD CONSTRAINT client_pkey PRIMARY KEY (id);
+
+
+ALTER INDEX public.client_pkey OWNER TO postgres;
+
+--
+-- TOC entry 1549 (class 16386 OID 33721)
+-- Dependencies: 1212 1212
+-- Name: factura_pkey; Type: CONSTRAINT; Schema: public; Owner: josep; Tablespace: 
+--
+
+ALTER TABLE ONLY factura
+    ADD CONSTRAINT factura_pkey PRIMARY KEY (id);
+
+
+ALTER INDEX public.factura_pkey OWNER TO josep;
+
+--
+-- TOC entry 1551 (class 16386 OID 33736)
+-- Dependencies: 1214 1214 1214
+-- Name: linia_factura_pkey; Type: CONSTRAINT; Schema: public; Owner: josep; Tablespace: 
+--
+
+ALTER TABLE ONLY linia_factura
+    ADD CONSTRAINT linia_factura_pkey PRIMARY KEY (factura_id, linia);
+
+
+ALTER INDEX public.linia_factura_pkey OWNER TO josep;
+
+--
+-- TOC entry 1541 (class 16386 OID 33653)
+-- Dependencies: 1204 1204
+-- Name: marca_pkey; Type: CONSTRAINT; Schema: public; Owner: josep; Tablespace: 
+--
+
+ALTER TABLE ONLY marca
+    ADD CONSTRAINT marca_pkey PRIMARY KEY (id);
+
+
+ALTER INDEX public.marca_pkey OWNER TO josep;
+
+--
+-- TOC entry 1545 (class 16386 OID 33673)
+-- Dependencies: 1208 1208
+-- Name: mecanic_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY mecanic
+    ADD CONSTRAINT mecanic_pkey PRIMARY KEY (id);
+
+
+ALTER INDEX public.mecanic_pkey OWNER TO postgres;
+
+--
+-- TOC entry 1537 (class 16386 OID 33949)
+-- Dependencies: 1200 1200
+-- Name: prova_pkey; Type: CONSTRAINT; Schema: public; Owner: josep; Tablespace: 
+--
+
+ALTER TABLE ONLY prova
+    ADD CONSTRAINT prova_pkey PRIMARY KEY (inc);
+
+
+ALTER INDEX public.prova_pkey OWNER TO josep;
+
+--
+-- TOC entry 1543 (class 16386 OID 33663)
+-- Dependencies: 1206 1206
+-- Name: taller_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY taller
+    ADD CONSTRAINT taller_pkey PRIMARY KEY (id);
+
+
+ALTER INDEX public.taller_pkey OWNER TO postgres;
+
+--
+-- TOC entry 1553 (class 16386 OID 33688)
+-- Dependencies: 1210 1202 1538
+-- Name: arreglo_client_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY arreglo
+    ADD CONSTRAINT arreglo_client_id_fkey FOREIGN KEY (client_id) REFERENCES client(id);
+
+
+--
+-- TOC entry 1554 (class 16386 OID 33696)
+-- Dependencies: 1210 1208 1544
+-- Name: arreglo_mecanic_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY arreglo
+    ADD CONSTRAINT arreglo_mecanic_id_fkey FOREIGN KEY (mecanic_id) REFERENCES mecanic(id);
+
+
+--
+-- TOC entry 1555 (class 16386 OID 33722)
+-- Dependencies: 1212 1202 1538
+-- Name: factura_client_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: josep
+--
+
+ALTER TABLE ONLY factura
+    ADD CONSTRAINT factura_client_id_fkey FOREIGN KEY (client_id) REFERENCES client(id);
+
+
+--
+-- TOC entry 1556 (class 16386 OID 33737)
+-- Dependencies: 1214 1212 1548
+-- Name: linia_factura_factura_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: josep
+--
+
+ALTER TABLE ONLY linia_factura
+    ADD CONSTRAINT linia_factura_factura_id_fkey FOREIGN KEY (factura_id) REFERENCES factura(id) ON DELETE CASCADE;
+
+
+--
+-- TOC entry 1552 (class 16386 OID 33674)
+-- Dependencies: 1208 1206 1542
+-- Name: mecanic_taller_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY mecanic
+    ADD CONSTRAINT mecanic_taller_id_fkey FOREIGN KEY (taller_id) REFERENCES taller(id);
+
+
+--
+-- TOC entry 1568 (class 0 OID 0)
+-- Dependencies: 4
+-- Name: public; Type: ACL; Schema: -; Owner: postgres
+--
+
+REVOKE ALL ON SCHEMA public FROM PUBLIC;
+REVOKE ALL ON SCHEMA public FROM postgres;
+GRANT ALL ON SCHEMA public TO postgres;
+GRANT ALL ON SCHEMA public TO PUBLIC;
+
+
+-- Completed on 2006-01-13 20:40:14 CET
+
+--
+-- PostgreSQL database dump complete
+--
+

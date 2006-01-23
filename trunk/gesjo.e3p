@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-3.8.dtd">
+<!-- Project file for project gesjo -->
+<!-- Saved: 2006-01-03, 19:41:54 -->
+<!-- Copyright (C) 2006 ,  -->
+<Project version="3.8">
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <UIType>Other</UIType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Sources>
+    <Source>
+      <Name>ww.py</Name>
+    </Source>
+    <Source>
+      <Name>ww0.py</Name>
+    </Source>
+    <Source>
+      <Name>wdialeg.py</Name>
+    </Source>
+    <Source>
+      <Name>treeview.py</Name>
+    </Source>
+    <Source>
+      <Name>informes.py</Name>
+    </Source>
+    <Source>
+      <Name>gjlib.py</Name>
+    </Source>
+    <Source>
+      <Name>gesjo.py</Name>
+    </Source>
+    <Source>
+      <Name>gjlib-original.py</Name>
+    </Source>
+    <Source>
+      <Name>fixedpoint.py</Name>
+    </Source>
+    <Source>
+      <Name>db_row.py</Name>
+    </Source>
+    <Source>
+      <Name>basedades.py</Name>
+    </Source>
+    <Source>
+      <Name>SimpleGladeApp.py</Name>
+    </Source>
+    <Source>
+      <Name>libgesjo.py</Name>
+    </Source>
+    <Source>
+      <Name>frm_cerca.py</Name>
+    </Source>
+    <Source>
+      <Name>FrmCercador.py</Name>
+    </Source>
+    <Source>
+      <Name>finestres.py</Name>
+    </Source>
+    <Source>
+      <Name>frmmarca.py</Name>
+    </Source>
+    <Source>
+      <Name>PrefixValidateActions.py</Name>
+    </Source>
+    <Source>
+      <Name>frmbrowse.py</Name>
+    </Source>
+    <Source>
+      <Name>frmmecanic.py</Name>
+    </Source>
+    <Source>
+      <Name>dlgcercaar.py</Name>
+    </Source>
+    <Source>
+      <Name>frmdlgesborra.py</Name>
+    </Source>
+    <Source>
+      <Name>dlgcerca.py</Name>
+    </Source>
+    <Source>
+      <Name>frmtaller.py</Name>
+    </Source>
+    <Source>
+      <Name>appbase.py</Name>
+    </Source>
+    <Source>
+      <Name>frmcalendari.py</Name>
+    </Source>
+    <Source>
+      <Name>frmcerca.py</Name>
+    </Source>
+    <Source>
+      <Name>frmcercador.py</Name>
+    </Source>
+    <Source>
+      <Name>frmrecercador.py</Name>
+    </Source>
+  </Sources>
+  <Forms>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <MainScript>
+    <Name>gesjo.py</Name>
+  </MainScript>
+  <Vcs>
+    <VcsType>Subversion</VcsType>
+    <VcsOptions>{'status': [''], 'log': [''], 'global': [''], 'update': [''], 'remove': [''], 'add': [''], 'tag': [''], 'export': [''], 'diff': [''], 'commit': [''], 'checkout': [''], 'history': ['']}</VcsOptions>
+    <VcsOtherData>{'standardLayout': True}</VcsOtherData>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS" />
+    <FiletypeAssociation pattern="*.ui" type="FORMS" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+  </FiletypeAssociations>
+  <PyLint>
+    <PyLintParams>{'enableImports': False, 'enableMiscellaneous': False, 'enableClasses': False, 'enableFormat': False, 'enableMetrics': True, 'enableVariables': False, 'enableDesign': False, 'dialogReport': True, 'txtReport': False, 'configFile': u'/media/usbdisk-1/gesjo_dev/informe_template.py', 'htmlReport': False, 'enableBasic': False, 'enableExceptions': False, 'enableSimilarities': False}</PyLintParams>
+  </PyLint>
+</Project>

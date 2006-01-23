@@ -1,0 +1,144 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
+
+#
+# Carregam llibreries
+#
+
+import sys
+
+try:
+	import gtk
+	import gtk.glade 
+	
+except:
+	print "Necessites tenir instalat el pyGTK o GTK2, ",
+	print "o posar correctament el PYTHONPATH. També són",
+	print "necessàries les llibreries libglade..."
+	sys.exit(1)
+	
+
+
+#
+# Splash
+#
+def actbarra(wid, val):
+	wid.set_fraction(val)
+	while gtk.events_pending(): 
+		gtk.main_iteration()
+
+try:
+	splash = gtk.Window(gtk.WINDOW_TOPLEVEL)
+	splash.set_decorated(gtk.FALSE)
+	splash.set_border_width(10)
+	splash.set_position(gtk.WIN_POS_CENTER)
+	
+	caixa = gtk.VBox(gtk.FALSE,0)
+	splash.add(caixa)
+	
+	
+	caixa2 = gtk.HBox(gtk.FALSE,0)
+	imatge = gtk.Image()
+	imatge.set_from_file("../pixmaps/rellotge.xpm")
+	caixa2.pack_start(imatge, gtk.TRUE, gtk.TRUE, 3)
+	imatge.show()
+	
+	linia = gtk.Label("")
+	linia.set_use_markup(gtk.TRUE)
+	linia.set_markup("<i><b>Gesjo</b> - Gestió Joeiera</i>\n\nVersió 0.1.1 BETA\n\nper Josep Torrens, (C) GPL 2004.\n\n")
+	caixa2.pack_start(linia, gtk.TRUE, gtk.TRUE, 3)
+	linia.show()
+	
+	caixa2.show()
+	caixa.pack_start(caixa2,gtk.TRUE, gtk.TRUE,3)
+	
+	pro = gtk.ProgressBar()
+	pro.set_text("Iniciant...")
+	pro.set_percentage(0.10)
+	pro.set_fraction(0.10)
+	
+	caixa.pack_start(pro,gtk.TRUE, gtk.TRUE,3)
+	pro.show()
+	
+	caixa.show()
+	splash.show()
+	while gtk.events_pending(): 
+		gtk.main_iteration()
+except:
+		pass
+
+
+
+#
+# Carregam llibreries
+#
+import reportlab as rpt
+actbarra(pro,0.20)
+import os
+actbarra(pro,0.25)
+import basedades
+actbarra(pro,0.30)
+import types
+actbarra(pro,0.35)
+import gjlib
+actbarra(pro,0.40)
+import ww
+actbarra(pro,0.50)
+import wdialeg
+actbarra(pro,0.60)
+
+class Gesjo:
+	""" Classe Gesjo """
+	def __init__(self,hostname, basededades,usuari,clau):
+
+		
+
+		self.bd = basedades.BaseDades()
+		
+		# Normalitzam, correguim ruta  a la BD
+		self.fitxer =  os.path.normpath(os.path.join(os.sep.join(os.getcwd().split(os.sep)[:-1]),basededades))
+
+		
+		# Conectam
+		res = self.bd.connexio(hostname, self.fitxer,usuari,clau)
+		if (not res):	
+			dlg = wdialeg.WidDlg("<big><b>Àvis!!!</b>, no s'ha pogut conectar a\n la base de dades. Comprova que el fitxer\n"+ \
+				basededades+" existeix dins el directori del programa.</big>",False, None)
+			rc = dlg.run()
+			
+			
+			sys.exit(1)
+		
+		
+		self.gj = gjlib.GJLib(self.bd)
+					
+		self.comp = ww.WidApp("../gesjo5.glade",self.gj)
+		 
+		
+		
+		self.gj.anam_fitxa("cl",1)
+		self.comp.mostra_fitxa("cl")
+		#self.gj.anam_fitxa("ar",1)
+		
+		
+		
+	
+
+
+
+
+
+
+#
+# Cream 
+#
+print sys.getdefaultencoding()
+actbarra(pro,0.70)
+gesjo_app = Gesjo("localhost", "gjdb.fdb","sysdba","masterkey")
+
+actbarra(pro,0.95)
+splash.destroy() 
+gtk.main()
+

@@ -1,0 +1,564 @@
+ID,CLIENT_ID,MODEL,DATA_ENTRADA,DATA_TORNADA,DATA_ENTREGA,MECANIC_ID,COST,PVP,NOTES,TREBALL,REPARACIO,MARCA,GRA_FL,KTS_FL,DATA_SORTIDA
+5,50,"cadena or 1",08/01/2004,02/01/2004,02/09/2004,1,,,"","jo treball","sf,msafn,msf
+
+sdfsf","lotus",12.345,45.12300,30/05/2004
+7,50,"",31/08/0004,,,,,,"","","","",,,
+9,61,"",31/08/0004,,,1,,,"","","","pepito",,,
+10,62,"",01/09/0004,,,,,,"","","","",,,
+13,62,"",01/09/0004,,,,,,"","","","",,,
+14,66,"SOLITARIO",01/09/0004,,,,,,"","sOLDAR","","ANILLO ORO DIAMANTE",,0.15000,
+15,67,"",01/09/0004,15/10/0004,,1,3,8,"","cierre","","Pulsera plata",,,01/09/0004
+16,68,"Arge",02/09/0004,,,,,,"","Hacer Anillos como La Muestra","","",,,02/09/0004
+17,69,"",02/09/0004,,,,,,"","Asa  a el cierre soldada","","Cadena oro",8.200,,02/09/0004
+18,71,"Corazon B.R. DIAM.",02/09/0004,,,,,,"","AL Nº18 TATUM","","Anillo oro corazon diam.",,,02/04/0009
+19,72,"",02/09/0004,,,,,,"","Cifrar  Alergico a la penicilina y el grupo Sanguinio y enlazadas al otro lado A.C. letra inglesa","","Placa oro 18 kts",,,02/09/0004
+20,74,"",02/09/0004,21/12/0004,21/12/0004,,27,45,"","Montar con nudos","","Collar turquesas",,,02/09/0004
+21,74,"",02/09/0004,21/12/0004,21/12/0004,,26,45,"","Montar con nudos y cierre imantado de plata","","Collar turquesas",,,02/09/0004
+22,74,"",02/09/0004,21/12/0004,21/12/0004,,22,45,"","Montar con nudos y cierre mio","","collar turquesas",,,02/09/0004
+33,76,"",02/09/0004,,,,,,"","Hacer pendientes en oro amarillo","","2 perlas",,,02/09/0004
+34,74,"",02/09/0004,15/10/0004,15/10/0004,1,0,0,"","Hacer pulsera a 19 centimetros el cierre de oro italiano","","Perlas grises",,,02/09/0004
+35,74,"",02/09/0004,,,,,,"","Hacer Collar a 44 o 45 cnts con cierre de oro","","Perlas grises verdosas",,,02/09/0004
+36,77,"",02/09/0004,15/10/0004,28/10/0004,1,7,17,"","Poner trozo que le falta","","Aro Plata",,,02/09/0004
+37,78,"",02/09/0004,,,,,,"","soldar sin cierre directa","","Cadena  oro mallorquina",25.900,,02/09/0004
+38,79,"",02/09/0004,,,,,,"","1 presion igual",""," 1 par pendientes oro con turquesa",,,02/09/0004
+39,80,"Criolla con diamantes",02/09/0004,,,14,,,"se lo lleva el represent.","Presupuesto uno igual","","1 pendiente solo",,,02/09/0004
+40,82,"str-111",03/09/0004,,,,,,"","Correa Cauxo","","Casio digital",,,03/09/0004
+45,83,"sx02m03",03/09/0004,,,,,,"","","","Speedo",,,03/09/0004
+46,84,"15031",04/09/0004,03/11/0004,04/11/0004,,0,5,"","quitar segundero y pintar agujas de negro","","Lotus",,,04/09/0004
+47,60,"cab c/a",04/09/0004,,,2,,,"","Ajustar tija y corona","","Seyko",,,04/09/0004
+48,85,"06457",04/09/0004,,,14,,,"se lo  lleva el representante","Repaso","","Lotus Crono",,,05/10/0004
+49,86,"450",04/09/0004,,,2,,,"","Repaso","","Sector  crono cab.",,,
+50,87,"735165",04/09/0004,,,2,,,"","Repaso","","Seyko",,,
+55,88,"40203",04/09/0004,10/06/0005,10/06/0005,15,4680,4680,"Esta apuntado tambien con el nº10552","Tija y corona","","Viceroy",,,04/09/0004
+56,89,"15075",04/09/0004,,,2,,,"","Repaso","","Lotus sra c/a",,,
+57,90,"2000  -974.006f",04/09/0004,,,2,,,"","Esfera repaso y pila  prueva estanque","","Tag Heuer bicolor",,,
+58,91,"wg-1113-0   sel",05/09/0004,24/12/0004,22/03/0005,11,24032,29268,"","Esfera azul repaso estanquidad","Albaran nº57402  fecha 29-10-2004","Tag Heuer",,,26/10/0004
+59,92,"597.10.141.1",05/09/0004,16/11/0004,03/01/0005,18,0,0,"Istorial del reloj :  9314 - 9410 - 10147 -","Retoque se le salio un boton despues de una revision completa","","Fortis crono cab.",,,05/09/0004
+60,93,"00000",05/09/0004,05/09/0004,05/09/0004,2,0,0,"","Repaso y pila","","Ferrari imitacion",,,05/09/0004
+61,94,"",05/09/0004,15/10/0004,17/10/0004,10,0,11,"Entregado sin talon  a miguel","arreglar todo","","Cad. pie y collar perlas",,,05/09/0004
+62,95,"",05/09/0004,05/11/0004,,2,1575,23,"","Tija Y corona","","Festina",,,05/09/0004
+63,97,"G.SHOCK  g-2210",07/09/0004,11/11/0004,11/11/0004,,40,80,"se lo lleva luis el representante","Presupuesto caja","","Casio",,,22/09/0004
+64,98,"",07/09/0004,02/10/0004,07/10/0004,12,1,7,"","Ajustar segundero y pila","","Festina sra",,,07/09/0004
+65,99,"",07/09/0004,19/09/0004,21/09/0004,1,0,12,"Entregado sin talon a juan","Dejarla A 17 1/2","","Pulsera oro",14.100,,07/09/0004
+68,100,"Automatico",08/09/0004,05/11/0004,12/11/0004,2,1850,42,"","Repaso","","Edox",,,08/09/0004
+69,101,"Flamenco",08/09/0004,,,1,,,"","Pila","","Raymond weil",,,
+70,102,"",08/09/0004,05/11/0004,12/11/0004,2,735,17,"","Pegar todos los numeros y pila","","Immersion",,,08/09/0004
+71,103,"06775",08/09/0004,,,,3690,68,"","Repaso","","Festina Crono",,,08/09/0004
+73,103,"06775",08/09/0004,,,,,,"","Repaso","","Festina Crono",,,23/09/0004
+74,104,"15186",08/09/0004,16/11/0004,16/11/0004,16,802,16,"","Cierre","","Lotus Titanio sra.",,,26/10/0004
+75,106,"Sandoz cab 71535-00690",09/09/0004,02/10/0004,09/10/0004,12,0,0,"","Pasador","	Los pasadores lostrae el cliente","Reloj",,,09/09/0004
+76,105,"",09/09/0004,,,,,,"","","","Lotus Crono",,,
+77,107,"06457   festina crono",09/09/0004,02/10/0004,19/10/0004,12,0,18,"","Repaso se para","","Reloj",,,09/09/0004
+80,109,"46221-54",09/09/0004,01/12/0004,07/12/0004,14,0,0,"se lo lleva el represntante. GARANTIA
+se lo lleva el cliente sin talon","Correa cauxo rota-- con garantia en el interior","","Viceroy",,,05/10/0004
+81,110,"Festina sra. c/armi",10/09/0004,03/10/0004,03/10/0004,12,1,10,"","Pasador","		Ajustar todas las asas ,remache y pila.","Reloj",,,10/09/0004
+82,111,"",10/09/0004,15/10/0004,07/11/0004,10,0,26,"","soldar","","2pulseras oro 1 cad. plata 1 anillo oro",,,10/09/0004
+83,112,"dw-290",11/09/0004,08/10/0004,17/10/0004,1,8,14,"Entregado a luis el representante","Repaso","","Casio",,,21/09/0004
+84,113,"",11/09/0004,15/10/0004,09/12/0004,10,0,12,"Entregado sin talon firma Catalina","Mosqueton","","Pulsera oro",,,11/09/0004
+85,114,"viceroy 40146-07",14/09/0004,17/02/0005,23/02/0005,15,2668,48,"LLAMAR AL ESTAR
+
+llamado dia 17/2/05 se ablo con malena y dijo que pasaria a buscarlo.","se mojo  repaso o presupuesto","OJO  Presupuesto es de maquina,corona y data y es de 15-3490    ----- 48e   contestado por telefono dia19/11/04","Reloj",,,14/09/0004
+93,116,"Alianza",16/09/0004,18/09/0004,18/09/0004,1,2,0,"","soldar","","Anillo oro alianza",,,16/09/0004
+94,117,"",16/09/0004,26/10/0004,26/10/0004,16,0,0,"","Armi y pila","	QUE SEA EL ARMI ORIGINAL","Lotus crono",,,26/10/0004
+95,118,"",17/09/0004,26/09/0004,02/10/0004,1,0,8,"","soldar","","Pulsera plata",,,17/09/0004
+96,120,"",19/09/0004,15/10/0004,16/10/0004,10,0,175,"","hacer aros","","oro",122.000,,21/09/0004
+97,121,"Pulsera oro mallorquina con cierre bulgari",19/09/0004,09/10/0004,09/10/0004,1,29,60,"","Presup. cierre igual","","joia",10.700,,23/09/0004
+98,122,"",19/09/0004,14/04/0004,11/12/0004,2,0,0,"el presupuesto es de 85,75e repaso bobina y pila","Repaso","","Swis nmilitar",,,19/09/0004
+99,123,"Emporio Armani",21/09/0004,02/10/0004,22/10/0004,12,1,18,"","Repaso","","Reloj",,,21/09/0004
+100,123,"",21/09/0004,02/10/0004,22/10/0004,12,5,9,"","corrrea negra","","Lotus",,,21/09/0004
+101,123,"cadena plata",21/09/0004,26/09/0004,22/10/0004,10,0,350,"","soldar","","joya",,,21/09/0004
+102,124,"Pendientes boton",21/09/0004,01/10/0004,02/10/0004,,4,10,"","Cambiar por circonitas","","Joia",,,23/09/0002
+103,125,"Anillo boton",21/09/0004,15/10/0004,17/10/0004,1,0,6,"","Soldar","","Joia",,,23/09/0004
+104,236,"Casio str-111",22/09/0004,08/10/0004,15/01/0005,,8,19,"Entregado al representante luis","correa","","Reloj",,,21/09/0004
+105,129,"omega cuerda antiguo",22/09/0004,05/11/0004,05/11/0004,1,1850,36,"SE LO LLEVA SIN TALON Y FIRMA","Corona","","Reloj",,,22/09/0004
+106,130,"Sandoz 72518-0011",22/09/0004,31/12/0004,31/12/0004,17,0,0,"","Se come las pilas  en un minuto (garantia en el interior del sobre)","GARANTIA","Reloj",,,26/10/0004
+107,125,"Bolsillo plata roscof",23/09/0004,25/11/0004,,2,70,140,"","Repaso","","Reloj",,,23/09/0004
+108,132,"Tag Heuer serie 1500",25/09/0004,25/09/0004,25/09/0004,1,0,1,"LLAMAR AL ESTAR","Pieza final del armi","poner pasador","Reloj",,,25/09/0004
+109,50,"cadena or 1",08/01/2004,02/01/2004,02/09/2004,1,,,"","jo treball","sf,msafn,msf
+
+sdfsf","lotus",12.345,45.12300,30/05/2004
+110,133,"Lotus crono",26/09/0004,,,1,,,"","Presupuesto","","Reloj",,,
+111,134,"Pulsera y cadena",26/09/0004,15/10/0004,17/10/0004,10,0,15,"","soldar y cad seguro","","Joyeria",,,10/10/0004
+112,135,"Lotus crono",28/09/0004,,,1,,,"Tiene un reloj no localizado el nº9891 BUSCAR Y RECLAMAR.","Cristal","","reloj",,,
+113,136,"1 pendiente",28/09/0004,15/10/0004,05/03/0005,10,0,350,"","Rosca","","Joia",,,10/10/0004
+114,137,"PENDIENTES PERLA",28/09/0004,25/11/0004,24/11/0004,1,35,0,"A mi cargo    se lo lleva su amigo que se va a londres y firma un papel","CAMBIAR CIERRE POR ANTIGUO CON ROSCA","","JOIA",,,08/10/0004
+116,135,"Lotus",28/09/0004,25/11/0004,,2,2975,4975,"Tiene un reloj no localizado el nº9891 BUSCAR Y RECLAMAR.","tija corona pila y rosca corona","","reloj",,,28/09/0004
+119,138,"Lotus 6789 cab",29/09/0004,,,1,,,"","Tija Y corona","","Reloj",,,
+120,108,"Viceroy serie Real Madrid",02/10/0004,17/11/0004,04/03/0005,15,0,12,""," Remache o Cierre Nuevo","","Reloj",,,26/10/0004
+122,108,"Viceroy serie Real Madrid",02/10/0004,,,10,,,""," Remache o Cierre Nuevo","","Reloj",,,02/10/0004
+123,134,"Tag Heuer",03/10/0004,05/11/0004,05/12/0004,2,5,20,"","Soldar  esfera","","Reloj",,,03/10/0004
+124,140,"Pulsera oro",03/10/0004,15/10/0004,,10,0,7,"","Soldar","","Joia",,,10/10/0004
+125,141,"Pulsera oro",03/10/0004,15/10/0004,31/10/0004,10,0,7,"","soldar","","Joia",,,10/10/0004
+126,142,"ogusai",03/10/0004,04/11/0004,10/11/0004,10,2,11,"","cierre","","reloj",,,03/10/0004
+127,143,"cuerda antiguo",03/10/0004,26/10/0004,09/11/0004,1,43,85,"","alargar 2,50 cnts","","Reloj oro",,,10/10/0004
+128,144,"cadena plata y cadena oro",05/10/0004,15/10/0004,24/10/0004,10,0,13,"","soldar y cierre plata","","joia",,,10/10/0004
+129,145,"Neeke",05/10/0004,03/03/0005,23/03/0005,13,20,20,"","correa","","Reloj",,,05/10/0004
+131,50,"cadena or 1",08/01/2004,02/01/2004,02/09/2004,1,,,"","jo treball","sf,msafn,msf
+
+sdfsf","lotus",12.345,45.12300,30/05/2004
+132,109,"46221-54",09/09/0004,07/12/0004,07/12/0004,14,0,0,"se lo lleva el represntante	
+se lolleva el cliente sin talon","Correa cauxo rota-- con garantia en el interior","","Viceroy",,,05/10/0004
+133,146,"Citizen sra",06/10/0004,05/11/0004,11/11/0004,2,0,0,"EL PRESUP. ES DE MAQUINA CORONA Y PILA 78,85E","tija ,corona y pila","","Reloj",,,06/10/0004
+134,146,"Viceroy 45074-18",06/10/0004,17/11/0004,24/12/0004,15,0,0,"Garantia","Presupuesto no aceptado y enviado garantia viceroy","","Reloj",,,26/10/0004
+135,148,"Viceroy",06/10/0004,17/11/0004,23/03/0005,15,812,17,"","tija Y corona","","Reloj",,,26/10/0004
+136,149,"2 pulseras oro",06/10/0004,15/10/0004,10/11/0004,12,0,12,"","soldar","","Joia",,,10/10/0004
+137,150,"Diesel dz-4003",07/10/0004,11/12/0004,11/12/0004,13,1,4,"","Presupuesto esfera y prueva estanque","se cambio la pila","Reloj",,,11/12/0004
+138,151,"anillo oro",07/10/0004,26/10/0004,13/11/0004,1,3,8,"","Poner piedra roja","","Joia",,,08/10/0004
+146,152,"Casio prg40",08/10/0004,04/11/0004,07/12/0004,20,0,0,"NO HAY BOTONES","Boton  luz","","Reloj",,,04/11/0004
+147,153,"Lotus Crono   9563",10/10/0004,13/07/0005,13/07/0005,2,0,0,"El Cliente no quiere pagar el arreglo.reclama al relojero el importe del arreglo anterior","RETOQUE","EL RELOJ FUNCIONA PERO EL RESTO NO","Reloj",,,10/10/0004
+148,154,"Armi festina titanio",10/10/0004,17/12/0004,24/12/0004,16,418,9,"No se puede hacer si no hay el reloj para adaptar una pieza diferente por no haber estok
+Vuelto a mandar con el reloj 1/12/04","Pieza final una   ( se manda tambien por peticion de la casa el reloj)","","Armi",,,16/11/0004
+149,155,"S/M",10/10/0004,15/10/0004,17/10/0004,10,0,3,"","Remachar pasador de caja","","Reloj",,,10/10/0004
+150,156,"Raymond weil sra. q",13/10/0004,20/10/0004,20/10/0004,10,0,8,"","Pila pasador ,remache","","Reloj",,,15/10/0004
+151,157,"Anillo con turquesas",13/10/0004,29/10/0004,15/01/0005,1,2,6,""," Una Turquesa limpiar","","Joia",,,22/10/0004
+152,158,"Omega sra",14/10/0004,20/10/0004,05/11/0004,10,0,7,"","Soldar cad/ seguro","","RELOJ",,,15/10/0004
+153,159,"Crono lotus  9698",15/10/0004,17/12/0004,07/01/0005,16,2510,4550,"","Repaso","pila ,palanca contacto,repaso, hermetismo,ajustar corona","Reloj",,,16/11/0004
+154,160,"trozo pulsera plata",17/10/0004,25/11/0004,07/12/0004,1,40,85,"","Hacer una pulsera a  22cnts","","Joia",,,22/10/0004
+155,161,"Cadena oro",19/10/0004,02/11/0004,02/11/0004,10,0,12,"","Cierre Mosqueton","","Joia",,,19/10/0004
+156,162,"Pendiente solo",19/10/0004,04/11/0004,09/11/0004,20,0,6,"Entregado sin talon firma Mercedes","soldar palo","","Joia",,,19/10/0004
+157,163,"Viceroy",22/10/0004,14/11/0004,23/12/0004,2,1425,22,"","Cristal","	soldar esfera pila y cristal","Reloj",,,29/10/0004
+158,164,"Tissot cab",22/10/0004,18/02/0005,04/03/0005,2,1285,27,"Entregado sin talon a su mujer","Arreglar las agujas y colocar bisel","","Reloj",,,25/01/0005
+159,154,"Anillo sello",24/10/0004,04/11/0004,09/01/0005,10,0,38,"","Reforzar y cambiar trozo fino","","Joia",,,24/10/0004
+160,166,"Fortis620.10.46",28/10/0004,30/12/0004,05/01/0005,18,2844,56,"","Cristal","","Relojh",,,16/11/0004
+161,67,"festina sra.6294",29/10/0004,14/11/0004,27/01/0005,2,2210,28,"","cristal y corona","anclaje esfera pila repaso cristal","Reloj",,,29/10/0004
+162,67,"Cadena plata",29/10/0004,05/11/0004,27/01/0005,2,0,3,"","asa del mosqueton","","Joia",,,29/10/0004
+163,167,"crono time force",29/10/0004,05/11/0004,05/11/0004,2,0,4,"","remachar","","Reloj",,,29/10/0004
+164,145,"1 pendiente solo",31/10/0004,05/11/0004,23/03/0005,10,0,6,"","soldar palo","","Joia",,,31/10/0004
+165,168,"Tissot sra",02/11/0004,14/11/0004,07/01/0005,2,1220,26,"","Repaso","oxido","Reloj",,,04/11/0004
+166,169,"Calypso cauxo",04/11/0004,17/12/0004,,16,697,14,"","Correa","","Reloj",,,16/11/0004
+167,170,"Pulsera oro",04/11/0004,,,12,,,"","Mosqueton","","Joia",,,
+168,171,"Colgante Viceroy",04/11/0004,24/12/0004,24/12/0004,15,6,9,"","Cambio Cierre","","Joia acer",,,16/11/0004
+169,172,"Raymond weil 5507,2",04/11/0004,04/02/0005,04/02/0005,19,2308,4640,"se lo lleva el representante     ( SE LO LLEVA SIN TALON FIRMNA SR.RAY)","Cristal","	cambiar cristal ,corona,pila","Reloj",,,26/11/0004
+170,173,"Seyko aut.",05/11/0004,03/01/0004,,2,350,13,"","Soldar esfera","","Reloj",,,08/01/0005
+171,174,"s/m sra. q.",16/11/0004,18/11/0004,,12,1,550,"","pasador y pila","","Reloj",,,16/11/0004
+172,175,"Lotus",07/11/0004,,,16,,,"el presupuesto es de acumulador-bobina-cristal mineral-corona-junta fondo-3 agujas-repaso y hermetismo","se para ( nocarga)","","Reloj",,,16/11/0004
+173,149,"Cadena oro bolas",10/11/0004,18/02/0005,18/02/0005,12,3,5,"","cierre mosqueton","","Joia",,,10/11/0004
+174,176,"lotus sra.",14/11/0004,19/10/0005,,16,,,"el presupuesto es de movimiento-corona-junta fondo-hermetismo-mano obra. ref.13-7490
+
+36,50e","repaso (circuito)","","Reloj",,,16/11/0004
+175,177,"Sandoz",15/11/0004,03/12/0004,02/05/0005,17,0,0,"	Entregado sin talon firma francisca","Repaso   GARANTIA EN EL INTERIOR","GARANTIA","Reloj",,,16/11/0004
+177,178,"Lotus",16/11/0004,17/12/0004,23/12/0004,16,802,17,"","cierre","","Reloj",,,16/11/0004
+178,115,"Viceroy",16/11/0004,16/11/0004,01/12/0004,15,1798,32,"","Maquina nueva","","Reloj",,,16/11/0004
+179,179,"Sra Festina dorado",17/11/0004,03/01/0005,04/01/0005,2,1230,26,"","Repaso","","Reloj",,,17/11/0004
+180,180,"Cadena oro",17/11/0004,18/11/0004,18/11/0004,10,0,4,"","Soldar","","Joia",5.000,,17/11/0004
+181,181,"sIN mARCA PLATA",19/11/0004,08/02/0005,03/05/0005,2,1580,65,"LLAMAR AL ESTAR","LIMPIAR O MAQUINA","","rELOJ",,,25/01/0005
+182,141,"Pulsera oro",19/11/0004,07/12/0004,02/01/0005,10,0,10,"","Soldar dos sitios que estan a punto de romperse","","Joia",,,25/11/0004
+183,100,"Edox aut",19/11/0004,25/01/0005,04/02/0005,2,0,0,"","RETOQUE Nº ANTERIOR Nº68","","Reloj",,,20/11/0004
+184,182,"Cadena cordon",21/11/0004,07/12/0004,15/01/0005,10,0,7,"CONSULTA EL CLIENTE TIENE LAS ASAS MUY GASTADAS","Soldar","","Joia",,,25/11/0004
+185,183,"Festina",21/11/0004,17/12/0004,15/01/0005,16,819,17,"","Cristal","","Reloj",,,22/11/0004
+186,159,"Calypso",23/11/0004,17/12/0004,07/01/0005,16,906,19,"","correa","","Reloj",,,23/11/0004
+187,184,"Pulsera oro",23/11/0004,07/12/0004,22/12/0004,10,0,6,"ESTA MUY GASTADA NO VALE LA PENA
+
+entregado sin talon a monserrat firma el sobre","Reforzar y cierre mosqueton","","Joia",,,23/11/0004
+188,185,"CK sRA. ARMI",25/11/0004,07/07/0005,07/07/0005,12,0,4,"","tornillo del armi","","Reloj",,,25/11/0005
+189,186,"LLavero plata",26/11/0004,07/12/0004,09/12/0004,2,0,3,"","soldar","","Joia",,,26/11/0004
+190,187,"Raymond weil 5373",26/11/0004,04/02/0005,06/02/0005,19,6198,108,"","Entra baho","	oxido,disco calendario,rueda salto calendario,tireta,ruedaminutera,ruedacañon,chausee,pila corona,
+comprovacion impermeabilidad.","Reloj",,,26/11/0004
+191,187,"Favre Leuba",26/11/0004,25/02/0005,27/02/0005,26,65,110,"","repaso de gomas","","Reloj",,,14/02/0005
+192,188,"Cadena oro",28/11/0004,07/12/0004,07/12/0004,10,15,24,"","mosqueton","","Joia",,,28/11/0004
+193,189,"Viceroy sra",28/11/0004,18/01/0005,,14,3074,4750," el presupuesto es de repaso-corona- tubo caja ref.15-5090   47,50e","Tija y corona","","Reloj",,,01/12/0003
+194,190,"Cab Seyko",30/11/0004,30/12/0004,15/01/0005,2,1975,3950,"","Cristal","","Reloj",,,30/11/0004
+195,191,"Pulsera",30/11/0004,18/12/0004,18/12/0004,10,0,4,"","Arreglar el cierre","","Joia",,,30/11/0004
+196,192,"Certina",01/12/0004,02/03/0005,13/05/0005,2,3550,3550,"","Gomas corona y rosca corona","ojo la corona no es original no mojar","Reloj",,,01/12/0004
+197,191,"Aros oro",01/12/0004,13/01/0005,13/01/0005,10,0,70,"","Fundir y hacer tres iguales misma medida","","Joia",,,01/12/0004
+198,193,"Viceroy",01/12/0004,18/01/0005,24/08/0005,14,1914,33,"Presupuesto es de 32e ref 13.2090  aceptado por mi   corona-tija tubo caja     
+
+
+   ENTREGADO SIN TALON FIRMA TOMEU","tija y corona","","Reloj",,,01/12/0004
+199,194,"cab Calypso",01/12/0004,17/12/0004,20/12/0004,16,418,9,"","Pieza final del armi","","Reloj",,,01/12/0004
+200,195,"Anillo",01/12/0004,17/12/0004,18/12/0004,1,2,9,"","Al nº 16","","Joia",,,01/12/0004
+201,126,"Rolex oro",01/12/0004,01/12/0004,02/12/0004,2,9975,19950,"","corona y rosca oro","","Reloj",,,01/12/0004
+202,196,"Fortis Espamatic crono",02/12/0004,20/03/0005,21/04/0005,18,2088,42,"ENTREGADO SIN TALON A MIGUEL DEL TIBERI","Limpiar botones y se adelanta mucho","","Reloj",,,02/12/0004
+203,197,"Festina sra",07/12/0004,03/01/0005,,2,725,17,"","corona","","Reloj",,,03/12/0004
+204,198,"2 cadenas",07/12/0004,17/12/0004,24/12/0004,10,0,19,"","soldar a tres sitios y asa final","","Joia",,,03/12/0004
+205,199,"Cadena oro",05/12/0004,17/12/0004,13/01/0005,10,0,6,"","soldar","","Joia",,,05/12/0004
+206,173,"Pared antiguo",09/12/0004,,,2,,,"","Repaso","","Reloj",,,05/12/0004
+207,200,"Festina sra",11/12/0004,30/12/0004,09/01/0005,2,875,18,"","corona y pila","","Reloj",,,12/12/0004
+208,201,"Nike",11/12/0004,20/03/0005,31/03/0005,24,760,14,"LLAMAR AL ESTAR","Correa original","","Reloj",,,11/12/0004
+209,202,"Lotus",13/12/0004,04/03/0005,,16,1742,25,"LLamar al estar","Correa cauxo nº 15153 lotus","","Reloj",,,09/12/0004
+210,203,"Cadena oro",13/12/0004,17/12/0004,29/12/0004,10,6,18,"","cierre mosqueton soldar asa","","Joia",,,09/12/0004
+211,204,"Lotus 15115 sr",14/12/0004,04/03/0005,09/03/0005,16,923,19,"","Cierre del armi","","Reloj",,,10/12/0004
+212,205,"Lotus sraº",10/12/0004,02/03/0005,22/03/0005,16,1481,30,"","Repaso y corona","Corona juntas tija y pila","Reloj",,,12/12/0004
+213,206,"Citizen sra",11/12/0004,30/12/0004,16/01/0005,12,1,20,"","Repaso y pila","","Reloj",,,11/12/0004
+214,207,"Lotus",11/12/0004,18/03/0005,18/03/0005,2,1168,17,"","Repaso","","Reloj",,,11/12/0004
+215,208,"Lotus cab",12/12/0004,16/01/0005,16/01/0005,10,0,3,"","remache","","Reloj",,,12/12/0004
+216,209,"Bolsillo",12/12/0004,03/01/0005,04/01/0005,2,225,5,"Entregado sin talon firma el sobre","Pila","no puedo abrirlo","Reloj",,,12/12/0004
+217,210,"Lotus cab",12/12/0004,03/01/0005,16/01/0005,2,0,0,"ref18-0090 el presupuesto es de aproxim. 80e","Repaso","	se tiene que cambiar la rueda de centro y repaso","Reloj",,,12/12/0004
+218,211,"lOTUS",12/12/0004,03/01/0005,28/01/0005,2,980,0,"","Ajustar tija","","rELOJ",,,12/12/0004
+219,212,"Bolsiollo antiguo",12/12/0004,30/12/0004,07/01/0005,2,2850,56,"","se arrreglo y se rompio la cuerda","","Reloj",,,12/12/0004
+220,213,"Lotus",12/12/0004,09/02/0005,10/02/0005,12,1,18,"","Repaso se come las pilas","","Reloj",,,12/12/0004
+221,214,"Lorus cab",14/12/0004,25/01/0005,28/01/0005,2,0,0,"","Repaso y Corona","NO HAY PIEZAS","Reloj",,,14/12/0004
+222,215,"Anillo alianza oro",15/12/0004,18/12/0004,15/01/0005,10,0,6,"","Al nº17","","Joia",,,15/12/0004
+223,216,"festina",19/12/0004,25/01/0005,12/02/0005,2,0,0,"","Presupuesto","EL PRESUP. ES DE 40,40E REF-13-8490","Reloj",,,18/12/0004
+224,153,"Pulsera oro",19/12/0004,,,10,,,"","soldar","","Joia",,,18/12/0004
+225,217,"Viceroy",20/12/0004,08/03/0005,12/04/0005,15,1160,22,"","cristal","","Reloj",,,30/12/0004
+226,99,"Cadena oro",21/12/0004,03/01/0005,07/01/0005,10,0,750,"","cambio mosqueton por reasa grande","","joia",,,21/12/0004
+227,218,"Cordon oro",22/12/0004,30/12/0004,19/01/0005,10,0,6,"","soldar","","Joia",,,22/12/0004
+228,219,"Omega aut",23/12/0004,25/01/0005,10/03/0005,2,0,0,"","Observar y Afinar","","Reloj",,,23/12/0004
+229,220,"Pendientes oso",24/12/0004,30/12/0004,03/01/0005,10,0,3,"","presiones","","Joia",,,24/12/0004
+230,221,"Osco crono",24/12/0004,25/01/0005,27/01/0005,2,0,0,"ENTREGADO SIN TALON FIRMA SU MUJER","cierre y pila","		NO HAY PIEZAS","Reloj",,,24/12/0004
+231,222,"Jaguar",28/12/0004,15/03/0005,17/03/0005,16,209,12,"","Bisel sale solo","","Reloj",,,30/12/0004
+232,223,"Pendientes o/b zafir azul",28/12/0004,25/01/0005,,1,2,6,"","Soldar palo","","Joia",,,09/01/0005
+233,224,"Fortis cab",29/12/0004,20/03/0005,10/06/0005,18,140,5," LLAMAR AL ESTAR","pieza final armi- mirar gomas condensa.","","Reloj",,,30/12/0004
+234,225,"Sra lotus",29/12/0004,08/02/0005,13/02/0005,2,1130,2260,"","repaso","","Reloj",,,25/01/0005
+235,190,"timex aut",31/12/0004,25/01/0005,18/02/0005,2,0,0,"","repaso","	NO SE PUEDE ARREGLAR  MUY MALO","Reloj",,,31/12/0004
+236,215,"Broche oro antg.",31/12/0004,25/01/0005,03/05/0005,1,6,22,"","Aguja oro","	quitar perlas y soldar hilo y poner perlas de nuevo","Joia",,,31/12/0004
+237,226,"anillo",04/01/0005,,,10,,,"","soldar","","Joia",,,04/01/0005
+238,227,"Viceroy aut.",04/01/0005,04/03/0005,13/05/0005,15,2494,46,"pagado con visa","Se Para","","Reloj",,,04/01/0005
+239,228,"Festina",04/01/0005,29/05/0005,,23,,,"El  presup es de 34,26e  repaso juntas circuito y pila","Repaso","","Reloj",,,04/01/0005
+240,229,"Seyko ana-digi.",07/01/0005,25/01/0005,,2,0,0,"","Repaso y pila","	NO HAY PIEZAS BOBINA","Reloj",,,07/01/0005
+241,230,"4 Aros oro",07/01/0005,15/01/0005,10/02/0005,10,0,95,"","A la medida como la muestra","AÑADIR TROZOS A LOS AROS","Joia",,,07/01/0005
+242,231,"Calypso",07/01/0005,04/03/0005,08/05/0005,16,958,21,"","cristal y pila","Cristal pila Hermetismo","reloj",,,07/01/0005
+243,231,"Casio",07/01/0005,15/12/0005,,20,22,46,"
+
+ Pagado con visa","repaso los botones y cristal y hermetismo","","Reloj",,,07/01/0005
+244,232,"cab lotus",09/01/0005,04/03/0005,13/03/0005,16,715,15,"","Tija y corona","","Reloj",,,09/01/0005
+245,233,"Viceroy real madrid azul",09/01/0005,04/03/0005,06/03/0005,15,3,5,"Entregado a su madre sin talon","Pasador final","","Reloj",,,09/01/0005
+246,234,"Lotus  15079/8",11/01/0005,02/03/0005,19/03/0005,16,0,0,"GARANTIA EN EL INTERIOR","Los Botones no funcionan","","Reloj",,,11/01/0005
+247,157,"2 pulseras",11/01/0005,25/01/0005,27/01/0005,10,0,24,"","soldar y cierre","","Joia",2460.000,,11/01/0005
+248,235,"Festina",12/01/0005,02/03/0005,03/03/0005,16,0,0,"llamar 532262  urgente","Nuevo (garantia)","Revision y pila","Reloj",,,12/01/0005
+249,236,"NIKE TRIAX C3",15/01/0005,01/04/0005,18/11/0005,24,0,0,"Garantia en el interior
+
+El ciente se enfada dia 31/3/05 y le dicen en el taller que el reloj lo recibieron un mes mas tarde que yo lo envie y dice que me regala el reloj y no lo quiere y que me hara muy mala propaganda","Correa descolocada (cambiarla garantia)","","Reloj",,,15/01/0005
+250,237,"Pulsera y 2 anillos",18/01/0005,01/02/0005,02/02/0005,10,0,24,"","arreglar anillos  ,    presupuesto pulsra","","Joia",,,18/01/0005
+251,238,"Pend/oro brill.",18/01/0005,16/02/0005,16/02/0005,1,30,254,"","Presupuesto montura cuadrada","","Joia",,,18/01/0005
+252,239,"Pared pesas",19/01/0005,,,,,,"LLAMAR AL ESTAR","Repaso","","Reloj",,,19/01/0005
+253,154,"Pulsera oro",22/01/0005,01/06/0005,08/04/0005,10,0,10,"","hilo y soldar","","Joia",,,22/01/0005
+254,240,"2 Cadenas oro",22/01/0005,25/01/0005,,10,14,34,"","cierre y soldar otra","","Joia",,,22/01/0005
+255,241,"Festina sra.",23/01/0005,02/03/0005,04/03/0005,16,958,1950,"","Repaso","","Reloj",,,23/01/0005
+256,242,"Pulsera oro",23/01/0005,25/01/0005,13/02/0005,10,0,6,"","Soldar","","Joia",,,23/01/0005
+257,243,"Anillo",25/01/0005,04/02/0005,,1,4,10,"","piedra verde","","Joia",,,25/01/0005
+258,244,"2 monedas",25/01/0005,,,10,,,"","hacer monturas","","Joia",,,25/01/0005
+259,245,"Seyko",25/01/0005,08/02/0005,15/02/0005,2,1090,22,"","Repaso","","Reloj",,,25/01/0005
+260,67,"lotus crono",27/01/0005,11/02/0005,11/02/0005,,0,2,"","Remache","","Reloj",,,27/01/0005
+261,246,"2cadenas y 2 anillos oro",27/01/0005,08/02/0005,11/02/0005,10,14,46,"","dos cierres cambiar brazo y reforzar el otro","","Joia",,,27/01/0005
+262,247,"Festina",28/01/0005,08/02/0005,08/02/0005,10,0,150,"","Remache","","Reloj",,,28/01/0004
+263,150,"Diesel",29/01/0005,,,13,,,"","Baho agujas en mala posición limpiar esfera","","Reloj",,,29/01/0005
+264,248,"Viceroy",29/01/0005,08/03/0005,08/03/0005,15,0,0,"LLAMAR AL ESTAR       entregado sin talon firma fernando","Nuevo(no funciona) cambio de la maquina por nueva","Cambiada la maquina por una nueva   GARANTIA","Reloj",,,29/01/0005
+265,249,"Lotus",01/02/0005,18/02/0005,20/02/0005,2,1310,27,"","Repaso","	repaso y pila","Reloj",,,01/02/0005
+266,237,"Pulsera",02/02/0005,08/03/0005,08/03/0005,1,35,6550,"","Acortar y cierre italiano","","Joia",,,02/02/0005
+267,250,"Lotus sra.",03/02/0005,04/03/0005,08/03/0005,16,836,17,"","Cristal","","Reloj",,,03/02/0005
+268,50,"FORTIS B-42",03/02/0005,04/03/0005,04/03/0005,18,0,0,"CON GARANTIA EN EL INTERIOR
+EL RELOJ ES DE KIKO","Las agujas no se ponen en su lugar y se atrasa","","Reloj",,,03/02/0005
+269,252,"Viceroy",04/02/0005,05/04/0005,09/04/0005,15,0,4,"","Pieza final del armi","","Reloj",,,04/02/0005
+270,253,"Breil crono cab",04/02/0005,,,25,,,"","Correa cauxo","","Reloj",,,04/02/0005
+271,254,"Anillo liso alianza",06/02/0005,08/02/0005,,10,0,7,"","Al nº20","","Joia",,,06/02/0005
+272,254,"Boton",06/02/0005,18/02/0005,,1,30,75,"","Arreglar el boton y hacer colgante","","Joia",,,06/02/0005
+273,246,"1 Pendiente solo",06/02/0005,23/02/0005,06/03/0005,1,50,100,"","Hacer uno igual","","Joia",,,06/02/0005
+274,50,"pulsera",09/02/0005,,,1,,,"","De La Pulsera hacer anillo a 8 1/2 cnts","","joia",,,09/02/0005
+275,50,"Colgante Plata con piedras",09/02/0005,16/02/0005,16/02/0005,1,2,6,"","Soldar","","Joia",,,09/02/0005
+276,255,"Reloj sra. viceroy titanio",09/02/0005,22/04/0005,,15,2436,40,"                aceptado presup. corona esfera y tubo pvp.42e","Soldar esfera","","Reloj",,,09/02/0005
+277,256,"3 anillos oro 9kts",09/02/0005,18/02/0005,,1,5,15,"","Hacer lo que se pueda","","Joias",,9.00000,09/02/0005
+278,257,"D&G",09/02/0005,19/04/0005,,13,1817,29,"","Cristal  garantia en el interior","","Reloj",,,09/02/0005
+279,258,"Diesel sra",09/02/0005,03/03/0005,,13,1981,30,"","Repaso","","Reloj",,,09/02/0005
+280,259,"Diesel",09/02/0005,28/06/0005,,13,24,34,"","tija y colocar agujas","","Reloj",,,09/02/0005
+281,260,"Pier Garden",10/02/0005,18/02/0005,27/02/0005,2,1680,34,"","Repaso (se come las pilas)","	oxido pila repaso","Reloj",,,10/02/0005
+282,261,"Lotus crono titanio",10/02/0005,02/03/0005,08/03/0005,16,2771,4850,"","Se para cuando quiere","	Repaso hermetismo y pila","Reloj",,,10/02/0005
+283,262,"Viceroy sra 43320",12/02/0005,08/03/0005,12/03/0005,15,1160,22,"","Cristal","","Reloj",,,12/02/0005
+284,263,"Pendientes perla cultivada",13/02/0005,09/03/0005,10/03/0005,12,0,2,"","Pegar","","Joia",,,13/02/0005
+285,264,"Alianza oro",13/02/0005,18/02/0005,22/02/0005,1,0,0,"","Soldar nuevo","","Joia",,,13/02/0005
+286,265,"Seyko sra. 910412  -  3y09-0a30  -r1",14/02/0005,29/10/0005,,13,3963,6963,"30/9/05","Correa cuero marrón","","Reloj",,,14/02/0005
+287,266,"Fortis",14/02/0005,03/03/0005,03/03/0005,18,3330,68,"LLAMAR AL ESTAR  605277445       Se lo lleva sin talon  BIEL","Boton y pasadores (repasar pasadores)","Engrasar Afinar pulsador y juntas  nº1792  reparacion","Reloj",,,14/02/0005
+292,251,"Rolex imitacion",15/02/0005,02/03/0005,24/03/0005,2,0,0,"ENTREGADO SIN TALON AL CLIENTE  FIRMA EL SOBRE","Corona mas fuerte","	No hay fornitura maquina rusa","Reloj",,,15/02/0005
+293,267,"Cyma",15/02/0005,15/03/0005,22/04/0005,2,0,0,"La pila es nueva y esta pagada.","Repaso","	No se encuentra rodajes circuito y bobina (mejor enviar a la casa)","Reloj",,,15/02/0005
+294,268,"Seyko",15/02/0005,02/03/0005,,2,0,0,"","Presupuesto","	Se tiene que cambiar la maquina  ref-120-0090  presup. aprox. 120e","Reloj",,,15/02/0005
+295,269,"Cadena con cruz",16/02/0005,23/02/0005,23/02/0005,10,0,4,"","Acortar y soldar","","Joia",,,16/02/0005
+296,270,"Viceroy  46260-35",17/02/0005,20/03/0005,12/04/0005,15,0,0,"","GARANTIA","SE PARA ES NUEVO DEL DIA 19-1-05","Reloj",,,17/02/0005
+297,50,"Omega automatico Seamaster",17/02/0005,02/03/0005,03/03/0005,2,17,37,"","Repaso","","Reloj",,,17/02/0005
+298,50,"Rolex imitacion",17/02/0005,02/03/0005,03/03/0005,2,0,0,"","Ajustar rosca de la corona","Mejor no arreglar muy malo","Reloj",,,17/02/0005
+299,50,"Lotus cuadrado dorado15092",17/02/0005,,,16,,,"Chica pto poll.","Repaso y cristal","","Reloj",,,17/02/0005
+300,213,"Lotus  15141",18/02/0005,22/04/0005,11/05/0005,16,1966,9,"Entregado a jose sin talon","Retoque se para","","Reloj",,,18/02/0005
+301,271,"Rolex imitacion",18/02/0005,23/02/0005,23/02/0005,10,0,5,"","Cierre","","Reloj",,,18/02/0005
+302,50,"colgante viceroy  2050c01010",19/02/0005,20/03/0005,20/03/0005,15,0,0,"","El cuero se salio del cierre   garantia  de la tienda","","joia",,,19/02/0005
+303,272," 2 pulseras oro",20/02/0005,23/02/0005,27/02/0005,10,0,12,"","soldar asas","","Joia",,,20/02/0005
+304,273,"Pulsera plata",20/02/0005,23/02/0005,27/02/0005,10,0,10,"","cambio dos medias asas gastadas","","Joia",,,20/02/0005
+305,274,"VARIOS ORO",20/02/0005,29/03/0005,29/03/0005,12,0,0,"","ORO RECICLAR","	no hacer nada","Joia",,,20/02/0005
+306,275,"lotus 15009",22/02/0005,29/04/0005,12/05/0005,16,348,9,"","Pieza final del armi","","Reloj",,,22/02/0005
+307,276,"collar perlas majorica y anillo oro",23/02/0005,23/03/0005,05/04/0005,1,35,70,"entregado sin talon firma el dueño","Hacer anillo similar","","Joia",,,23/02/0005
+308,277,"Anillo oro",23/02/0005,04/03/0005,12/04/0005,1,3,9,"","Esmeralda","","jOIA",,,23/02/0005
+309,269,"Cadena oro",25/02/0005,06/03/0005,15/03/0005,10,0,0,"","acortar 2ª vez","","Joia",,,25/02/0005
+310,278,"Viceroy",25/02/0005,09/03/0005,21/05/0005,12,0,5,"","Arreglar tapa","","Reloj",,,25/02/0005
+311,279,"Pulsera y 1 pendiente",25/02/0005,06/03/0005,09/03/0005,10,0,10,"","Asa y roisca al tornillo","","Joia",,,25/02/0005
+312,280,"Jaguar",26/02/0005,29/04/0005,06/05/0005,29,1603,33,"LLAMAR AL ESTAR  ENTREGADO SIN TALON FIRMA SU ABUELA","Cristal y Pila","","Reloj",,,26/02/0005
+313,280,"Lotus",26/02/0005,29/04/0005,06/05/0005,16,1046,22,"LLAMAR AL ESTAR     ENTREGADO SIN TALON A SUABUELA Y FIRMA EL SOBRE","Cristal","","Reloj",,,26/02/0005
+314,281,"Viceroy",26/02/0005,17/04/0005,20/04/0005,15,1972,34,"","Cristal","","Reloj",,,26/02/0005
+315,282,"Anillo oro",02/03/0005,13/09/0005,07/10/0005,1,6,15,"entregado sin talon firma el cliente","Zafir azul","","Joia",,,02/03/0005
+316,283,"Viceroy 47144",03/03/0005,17/04/0005,11/05/0005,15,1566,29,"","Cristal","","Reloj",,,03/03/0005
+317,284,"Festina",03/03/0005,15/04/0005,05/05/0005,12,0,3,"","Pegar nº2","","Reloj",,,03/03/0005
+318,285,"Breil",04/03/0005,29/10/0005,18/11/0005,13,3432,6432,"1/9/05
+
+ pagado con visa","Pegar dos numeros","sE PEGARON LOS NºS Y NO FUNCIONAVA SE LE COMENTO AL CLIENTE Y DIJO QUE SE MANDARA","Reloj",,,04/03/0005
+319,286,"",10/03/0005,,,10,,,"A cuenta 50e","Repaso","","Jeralt le cutre",,,10/03/0005
+320,287,"Festina",11/03/0005,24/03/0005,17/04/0005,12,1,18,"","Repaso","","Reloj",,,11/03/0005
+321,288,"Titan",11/03/0005,01/04/0005,05/04/0005,10,0,4,"","Cierre completo","","Reloj",,,11/03/0005
+322,262,"Lotus cab",12/03/0005,22/04/0005,,16,1864,28,"","Repaso se atrasa mucho","","Reloj",,,12/03/0005
+323,289,"Pulsera perlas",13/03/0005,01/04/0005,13/05/0005,10,0,6,"","Hilo oro","","Joia",,,13/03/0005
+324,290,"S/M Q.",15/03/0005,23/03/0005,23/03/0005,12,1,18,"","Repaso","","Reloj",,,15/03/0005
+325,291,"Anillo oro",16/03/0005,01/04/0005,18/03/0005,10,0,18,"","Al nº24","","Joia",,,16/03/0005
+326,292,"Calypso",20/03/0005,29/04/0005,17/06/0005,31,278,7,"","Pieza final del armi","","Reloj",,,20/03/0005
+327,292,"1 Pendiente solo y 1 pulsera",20/03/0005,20/04/0005,17/06/0005,10,0,5,"","2 tornillos oro y soldar pulsera","","jOIA",,,20/03/0005
+328,293,"2 anillos",26/03/0005,20/04/0005,26/10/0005,10,0,30,"","PONER A MEDIDAS","","Joia",,,26/03/0005
+329,294,"Antiguo oro crono",27/03/0005,18/11/0005,30/11/0005,2,1160,3360," con nº7524","Restaurar","","Reloj",,,27/03/0005
+330,295,"Festina submariner",27/03/0005,22/04/0005,24/04/0005,23,1271,27,"entregado sin talon firma su mujer","Pila y prueba estanque ,cristal","","Reloj",,,27/03/0005
+331,296,"Cadena oro cordon",29/03/0005,01/04/0005,02/04/0005,10,0,6,"","soldar","","Joia",,,29/03/0005
+332,297,"Anillo oro",29/03/0005,20/04/0005,29/04/0005,10,0,30,"","Cambio brazo mas gordo al nº18 tatum","","Joia",,,29/03/0005
+333,298,"cadena oro",01/04/0005,20/04/0005,20/04/0005,10,0,4,"","soldar","","Joia",,,01/04/0005
+334,99,"Lotus titanio",01/04/0005,29/04/0005,,16,487,10,"","Pieza final del armi","","Reloj",,,01/04/0005
+335,299,"Festina sra.",01/04/0005,,,16,,,"  
+
+LA REPARACION ES MUY CARA 32,56E
+REPASO JUNTAS CRISTAL PILA IVA INCLUIDO","Cristal y pila","","Reloj",,,01/04/0005
+336,300,"Pulsera oro",02/04/0005,01/05/0005,01/05/0005,1,2480,50,"","Cambiar de modelo de cierre por italiano","","Joia",,,02/04/0005
+337,125,"Aillo oro",05/04/0005,05/05/0005,04/06/0005,10,0,7,"","soldar","","Joia",,,05/04/0005
+338,125,"Festina",05/04/0005,13/09/0005,28/09/0005,23,0,0,"La reparacion es muy cara para mi gusto 26,71e","Tija y corona","","Reloj",,,05/04/0005
+339,301,"Seyko",05/04/0005,,,13,,,"","Cristal","","Reloj",,,05/04/0005
+340,302,"cad. plata y pulsera oro",05/04/0005,05/05/0005,08/05/0005,10,0,9,"","Cierre mosqueton plata y soldar pulsera oro","","Joia",,,05/04/0005
+341,303,"Cadena oro y aro acero",06/04/0005,05/05/0005,24/06/0005,10,0,6,"","soldar y hacer cierre","","Joia",,,06/04/0005
+342,50,"Fossil",06/04/0005,,,13,,,"    Reloj de la Propietaria
+KATJA","Cristal","","Reloj",,,06/04/0005
+343,304,"Lotus sra.",07/04/0005,08/11/0005,22/11/0005,16,1412,3455,"La reparacion es muy cara  34,55e
+
+
+el cliente esta conforme","Tija y corona","","Reloj",,,07/04/0005
+344,305,"Bolsillo s/m",08/04/0005,,,2,,,"","Cristal","","Reloj",,,08/04/0005
+345,50,"Fortis  spamatic",12/04/0005,31/07/0005,31/07/0005,18,0,0,"","Se para","","Reloj",,,12/04/0005
+346,306,"D mario",13/04/0005,30/09/0005,30/09/0005,12,0,0,"","Repaso","	no tiene arreglo","Reloj",,,13/04/0005
+347,307,"PULSERA ORO",17/04/0005,24/04/0005,24/04/0005,10,0,7,"","ASA","","JOIA",,,17/04/0005
+350,308,"Seyko",21/04/0005,05/05/0005,01/06/0005,12,1,18,"","Repaso","","Reloj",,,21/04/0005
+351,50,"Raymond weil guiovani crono 4873 zz68751",22/04/0005,,,19,,,"SE LO LLEVA EL REPRESENTANTE
+
+       695511176 llamar al cliente","Se para la aguja horaria","","rELOJ",,,22/04/0005
+352,309,"",24/04/0005,31/05/0005,,10,0,6,"","Pulsera y anillos reciclar","","Joia",,,24/04/0005
+353,310,"Pend. y anillo oro",27/04/0005,,,1,,,"","1 presion y anillo al nº 12","","Joia",,,27/04/0005
+354,50,"lotus sra titanio",27/04/0005,08/05/0005,12/05/0005,10,0,5,"","CIERRE","","Reloj",,,27/04/0005
+355,50,"Cadena barco",27/04/0005,08/05/0005,12/05/0005,10,0,5,"","Soldar","","Joia",,,27/04/0005
+356,311,"Viceroy",29/04/0005,11/11/0005,11/11/0005,15,0,0,"LLamar al estar urgente    ojo  ojo  al movil
+
+
+     Sin Arreglar el precio es de 43,50e","Ajustar Tija","El presupuesto es elevado no arreglar","Reloj",,,29/04/0005
+357,312,"Lotus",03/05/0005,14/07/0005,14/07/0005,16,9,18,"","TIJA Y CORONA","","reloj",,,03/05/0005
+358,313,"Cadena plata y medalla plata",03/05/0005,22/05/0005,17/06/0005,10,0,7,"","Cierre y asa","","Joia",,,03/05/0005
+359,314,"Alianza oro",06/05/0005,,,12,,,"","Hacer diseño","","Joia",,,06/05/0005
+360,275,"Festina cab 200m. submariner",11/05/0005,10/06/0005,17/06/0005,23,1464,30,"Entregado sin talon firma el cliente","Cristal","","reloj",,,11/05/0005
+361,315,"Bolsillo cuerda Viceroy",13/05/0005,13/09/0005,,15,2494,4494,"","Repaso","","Reloj",,,13/05/0005
+362,316,"2 pares de pendientes",13/05/0005,03/06/0005,03/06/0005,1,1,4,"","Cambiar cierre y 2 perlas","","Joia",,,13/05/0005
+363,317,"Viceroy",13/05/0005,,,15,,,"Garantia en el interior","La correa se rompe (reloj con garantia)","","rELOJ",,,13/05/0005
+364,239,"Lotus cab crono titanio",17/05/0005,,,16,,,"ojo el presupuesto es de 64,22 e 3 agujas junta,repaso pulsador corona past. autom. hermetismo etc.
+
+ref.18-8590","Agujas ,gomas pieza final","ojo ojo ojo","Reloj",,,17/05/0005
+365,318,"Seyko",17/05/0005,,,13,,,"","Contacto positivo","","Reloj",,,17/05/0005
+366,319,"3 pares pend. oro",17/05/0005,16/06/0005,06/07/0005,1,0,1240,"","4 roscas y palo","","Joia",,,17/05/0005
+367,50,"Crono viceroy 47239-55",18/05/0005,,,15,,,"","Reloj nuevo 2 dias cambio por nuevo","","Reloj",,,18/05/0005
+368,302,"Pulsera oro",19/05/0005,07/06/0005,07/06/0005,10,3,6,"","soldar a dos sitios","","Joia",,,19/05/0005
+369,320,"Festina",19/05/0005,10/06/0005,11/10/0005,23,1377,27,"","Repaso","","Reloj",,,19/05/0005
+370,321,"Viceroy 43297",20/05/0005,11/11/0005,22/11/0005,15,0,0,"
+
+     CONTESTADO QUE NO POR SER CARO","Tija y corona","El presupuesto es de 71e repaso corona tubo tija juntas tubo rosca etc.","Reloj",,,20/05/0005
+371,322,"Casio",21/05/0005,10/11/0005,20/11/0005,20,0,15,"","Mirar las gomas","","RTeloj",,,21/05/0005
+372,323,"Pulsera cordon",22/05/0005,31/05/0005,,10,0,6,"","soldar","","Joia",,,22/05/0005
+373,324,"Pulsera fetiche y medalla",26/05/0005,14/06/0005,14/06/0005,10,0,15,"","Descifrar la medalla y colocar el fetiche a la pulsera al lado del cierre","","Joia",,,26/05/0005
+374,325,"Cadena y cruz o/b y Diamantes",26/05/0005,10/06/0005,22/06/0005,1,15,33,"","Mosqueton y engastar bien una piedra","","Joia",,,26/05/0005
+375,50,"Fortis b-42",31/05/0005,,,18,,,"KIKO","2ª VEZ  LA CORONA NO ENRROSCA BIEN   GARANTIA","","Reloj",,,31/05/0005
+376,50,"FORTIS",31/05/0005,,,18,,,"","DE MI PROPIEDAD   LIMPIAR BOTONES Y CRISTAL","","RELOJ",,,31/05/0005
+377,326,"Festina",31/05/0005,15/07/0005,,16,1358,24,"","Tija y corona","","Reloj",,,31/05/0005
+378,327,"Calypso",01/06/0005,10/06/0005,29/06/0005,31,522,1050,"","cristal","","Reloj",,,01/06/0005
+379,328,"Cruz oro",01/06/0005,,,10,,,"","cambio asa y reforzar la otra","","Joia",,,02/06/0005
+380,50,"Viceroy",02/06/0005,28/06/0005,,15,754,1550,"","Pasador y correa","","Reloj",,,02/06/0005
+381,329,"Cadena y cruz",02/06/0005,15/06/0005,15/06/0005,10,0,4,"","soldar cadena","","Joia",,,02/06/0005
+382,330,"Pulsera perlas y oro m.r.",02/06/0005,14/06/0005,14/06/0005,10,0,4,"","Perla y hilo","","Joia",,,02/06/0005
+383,298,"Gargantilla oro",02/06/0005,07/07/0005,07/07/0005,10,0,3,"","quitar trozo ultimo y soldar","","Joia",,,02/06/0005
+384,331,"Aro yCruz oro",03/06/0005,10/06/0005,16/06/0005,1,3,7,"","soldar c/s y Piedra a la cruz","","Joia",,,03/06/0005
+385,316,"1 par pendientes oro",03/06/0005,10/06/0005,14/06/0005,1,10,22,"","Cambiar Cierre con presion","","joia",,,03/06/0005
+386,332,"Pulsar",04/06/0005,,,13,,,"","Cristal","","Reloj",,,
+387,308,"Seyko",05/06/0005,15/12/0005,,13,2608,4750,"30/9/05","RETOQUE","","Reloj",,,05/06/0005
+388,333,"Oro reciclar",07/06/0005,,,12,,,"","Reciclar por cadena cordobesa o tro modelo","","Joia",,,
+389,333,"Pulsera",08/06/0005,07/07/0005,07/07/0005,10,0,5,"","Soldar","","Joia",,,08/06/0005
+390,334,"Gargantilla oro",08/06/0005,17/06/0005,17/06/0005,1,2,5,"","soldar","","Joia",,,08/06/0005
+391,334,"D&G",08/06/0005,29/10/0005,18/12/0005,13,2357,4357,"1/9/05","CRISTAL","","Reloj",,,08/06/0005
+392,335,"2 pulseras oro",12/06/0005,26/06/0005,26/06/0005,10,0,36,"","cierres","","Joia",,,12/06/0005
+393,336,"Seyko",12/06/0005,,,13,,,"1/9/05","Juego de agujas","","Reloj",,,12/06/0005
+394,324,"Pulsera oro",14/06/0005,12/08/0005,12/08/0005,10,0,8,"","Soldar","","Joia",,,14/06/0005
+395,337,"Viceroy 45050",14/06/0005,29/09/0005,11/10/0005,15,2668,4668,"1/9/05","Se Para repaso","","Reloj",,,14/06/0005
+396,338,"pARED",21/06/0005,,,10,,,"","rEPASO","","rELOJ",,,
+397,227,"Viceroy aut.",22/06/0005,02/12/0005,,15,0,0,"20/10/05","RETOQUE","ANTES CON EL Nº238
+ maquina nueva con nº943648","Reloj",,,23/06/0005
+398,339,"Lotus",28/06/0005,11/12/0005,,16,,,"1/9/05
+
+EL PRESUPUESTO ES DE 42,97E 
+ CRISTAL, CORONA MOVIMIENTO,TIJA JUNTA, MANO DE OBRA Y IVA
+
+   no arreglar","Cristal,tija y corona","NO ARREGLAR DEMASIADO CARO PACO","Reloj",,,01/09/0005
+399,340,"Anillo oro",28/06/0005,,,1,,,"","Circonitas 2","","Joia",,,28/06/0005
+400,341,"oro sra Sandoz",29/06/0005,,,15,,,"1/9/05","tornillo  al armi","","Reloj",,,29/06/0005
+401,342,"Citizen",01/07/0005,,,13,,,"
+
+     LLAMAR AL ESTAR AL Nº670982919","Gomas revision","","Reloj",,,01/07/0005
+402,125," pares de pendientes",05/07/0005,24/08/0005,24/08/0005,1,5,12,""," PRESIONES MAS GRANDES","","Joia",,,05/07/0005
+403,50,"Fortis spamatic",05/07/0005,13/09/0005,08/11/0005,18,0,0,"se lo  lleva el representante","Entra baho"," tiberi","Reloj",,,05/07/0005
+404,343,"Cadena oro",06/07/0005,13/09/0005,13/09/0005,10,0,5,"","soldar","","Joia",,,06/07/0005
+405,344,"Tag hewer",09/07/0005,07/10/0005,12/10/0005,11,9816,11779,"1/9/05 
+
+Pagado con visa el nº405 y 406 la suma
+
+sin talon a su hija","Corona cristal y Bisel","","Reloj",,,11/07/0005
+406,344,"Tag heuer",09/07/0005,07/10/0005,12/10/0005,11,17602,21894,"1/9/05
+
+pagado con visa la suma de nº 405 y 406
+
+sin talon a su hija","Cristal y Bisel","","Reloj",,,11/07/0005
+407,345,"Pulsera oro",10/07/0005,,,1,,,"","Mosqueton Grande","","Joia",,,10/07/0005
+408,346,"Viceroy aut",14/07/0005,13/10/0005,,15,2494,43,"1/9/05","Repaso","","Reloj",,,14/07/0005
+409,347,"Anillo sello  peq.",15/07/0005,13/09/0005,06/10/0005,1,0,6,"","Soldar","","Joia",,,15/07/0005
+410,348,"Wacheron Constantin",19/07/0005,25/07/0005,25/07/0005,,20,68,"el sr. se llama JOHN MASON","Quitar Medio Cntm.","","Reloj",,,19/07/0005
+417,349,"Lotus",19/07/0005,,,16,0,0,"1/9/05
+
+  EL PRESUPUESTO ES DE 64,32	
+  CRISTAL,CORREA,JUNTA,AGUJAS PILA HERMETISMO IVA INCLUIDO
+ paco no arreglar","correa cauxo y cristal","			No arreglar el cliente 1/12/05","Reloj",,,19/07/0005
+418,350,"Lotus sra",26/07/0005,,,16,,,"   
+
+      EL PRESUPUESTO ES DE 29,96E
+ MAQUINA Y MANO DE OBRA MAS IVA","Repaso","		MEJOR NO ARREGLAR PACO","Reloj",,,26/07/0005
+419,324,"Cadena y par pend oro",27/07/0005,12/08/0005,18/12/0005,10,0,7,"","Pendientyes acortar y cadena cierre reasa","","Joia",,,27/07/0005
+420,351,"Lotus",31/07/0005,29/09/0005,03/11/0005,16,2419,3819,"1/9/05","Repaso","maquina pila y hermetismo","Reloj",,,31/07/0005
+421,352,"Tag heuer 1500 -980.113n",05/08/0005,07/10/0005,13/11/0005,11,76,10208,"1/9/05
+
+    Entregado sin talon firma john","Se Adelanta 5 minutos al dia","","Reloj",,,05/08/0005
+422,353,"2 pulseras oro",11/08/0005,13/09/0005,06/10/0005,10,0,25,"","soldar y reforzar asas flojas","","Joia",,,11/08/0005
+423,354,"Raymond Weil",12/08/0005,,,19,,,"1/9/05","Cristal y pasadores","","Reloj",,,01/09/0005
+424,355,"aNILLO",16/08/0005,26/08/0005,26/08/0005,1,30,69,"","Arreglar anillo oro","","jOIA",,,16/08/0005
+425,356,"Seyko",17/08/0005,15/12/0005,,13,3028,6028,"","Se para cuando quiere","","Reloj",,,30/09/0005
+426,357,"Reloj y Anillo",19/08/0005,30/08/0005,30/08/0005,10,0,4,"","soldar los dos","","Joia",,,19/08/0005
+427,358,"Mesa bolas Kurdo",21/08/0005,,,2,,,"","Repaso y mirar de limpiar el laton","","Reloj",,,21/08/0005
+428,359,"oro lotus sra.",21/08/0005,13/09/0005,30/10/0005,16,3236,5836,"1/9/05","Repaso","","Reloj",,,01/09/0005
+429,360,"Pulsera oro",24/08/0005,13/09/0005,,10,0,12,"","Reforzar asas y cierre  Mosqueton","","Joia",,,24/08/0005
+430,361,"Longines sra.l5 151 3    28121477",25/08/0005,18/11/0005,14/12/0005,2,1885,4325,"nº7523
+ojo no mojar
+
+pagado con master car","Tija y corona , Estanque.","","Reloj",,,25/08/0005
+431,362,"Gargantilla oro",25/08/0005,13/09/0005,21/12/0005,10,0,9,"","asa final","","Joia",,,25/08/0005
+432,363,"Tag heuer f1",25/08/0005,07/10/0005,14/10/0005,11,6895,9390,"1/9/05","tija ,corona y ajustar agujas","","Reloj",,,25/08/0005
+433,364,"Raymond Weil   Tango bicolor",25/08/0005,,,19,,,"1/9/05","Entra baho mirar las gomas","","Reloj",,,25/08/0005
+434,365,"Cab Lotus Crono c/a",27/08/0005,28/09/0005,20/11/0005,16,1499,29," 1/9/05","Cristal y Agujas","Cristal agujas y hermetismo","Reloj",,,27/08/0005
+435,366,"Viceroy",28/08/0005,,,15,,,"1/9/05","Cristal","","Reloj",,,28/08/0005
+436,367,"Cadena oro",28/08/0005,13/09/0005,05/10/0005,10,0,12,"","soldar","","Joia",,,01/09/0005
+437,275,"Seyko",28/08/0005,09/11/0005,10/11/0005,13,1460,2860,"1/9/05
+
+ nº etiquieta 053590","Solo Cristal","","Reloj",,,28/08/0005
+438,368,"fESTINA",28/08/0005,08/11/0005,,23,1168,22,"","rEPASO","","rELOJ",,,29/09/0005
+439,370,"Festina sra. armi",01/09/0005,29/09/0005,27/10/0005,23,1336,2636,"1/9/05","Repaso","","Reloj",,,01/09/0005
+440,370,"Cocina",01/09/0005,,,12,,,"","Maquina Nueva","","Reloj",,,01/09/0005
+441,371,"Pulsera acero y diamante",01/09/0005,,,22,,,"","Se desace y diamante ( garantia)","Pido una nueva en el sobre porque tiene garantia","Joia",,,01/09/0005
+442,50,"titanio cab",01/09/0005,29/09/0005,29/09/0005,15,0,0,"1/9/05   
+
+
+   es mio por abelo cambiado","se para y atrasa","cambiarlo por uno nuevo","reloj",,,01/09/0005
+443,50,"Fosil cab cambio colr de esfera",01/09/0005,09/11/0005,12/11/0005,13,0,0,"1/9/05
+
+
+ LLAMAR AL Nº 655372756","repaso","garantia","Reloj",,,01/09/0005
+444,50,"cab nyke triax c8",01/09/0005,10/11/0005,11/11/0005,13,0,0,"1/9/05","LA CORREA SE DESMONTA GARANTIA","GARANTIA EN EL INTERRIOR","reloj",,,01/09/0005
+445,372,"Festina",02/09/0005,28/09/0005,,23,1255,2455,"","Se come las pilas en 2 meses","maquina y hermetismo","Reloj",,,02/09/0005
+446,50,"sRA TAG HEUER",02/09/0005,07/10/0005,22/10/0005,11,9524,12440,"      MAQUINAS DE ESCABACION","se ATRASA","TIENE 4 ARREGLOS  Y SIEMPRE AL CAMBIAR LA PILA PASA LO MISMO QUE SE ATRASA","Reloj",,,02/09/0005
+447,373,"DKNY",02/09/0005,29/10/0005,,13,976,1876,""," UNA PIEZA MAS DEL ARMI","","Reloj",,,02/09/0005
+448,374,"2 PULSERAS ORO",02/09/0005,02/10/0005,15/10/0005,10,0,13,"","1 soldar y la otra asa final","","Joia",,,02/09/0005
+449,375,"cRUZ MALL.",06/09/0005,14/09/0005,14/09/0005,12,0,12,"","Asa  para pulsera mallorquina","","jOIA",,,06/09/0005
+450,376,"Lotus",06/09/0005,,,16,,,"LLAMAR AL CLIENTE AL TENER EL PREWSUPUESTO
+
+AL Nº679522228    680155890","PRESUPUESTO","Espera garantia del cliente","Reloj",,,06/09/0005
+451,377,"Lotus",07/09/0005,,,16,,,"","Pieza final del armi y repaso","","Reloj",,,07/09/0005
+452,378,"Cadena oro",07/09/0005,,,10,,,"","Cierre Mosqueton","","Joia",,,07/09/0005
+453,379,"aRO O/B y pulsera o/a",08/09/0005,16/09/0005,08/10/0005,1,8,19,"","Ocho al aro y soldar y reforzar","","jOIA",,,08/09/0005
+454,132,"3 pares de pendientes brill.",08/09/0005,06/10/0005,07/10/0005,1,70,350,"","HACER MONTURA NUEVA","","Joia",,,08/09/0005
+455,50,"2 relojes bolsillo",13/09/0005,13/11/0005,29/11/0005,2,3580,84,"","Repasarlos","","Reloj",,,13/09/0005
+456,380,"Casio",13/09/0005,,,20,,,"","Correa  cauxo","","Reloj",,,13/09/0005
+457,381,"Lotus sra",13/09/0005,03/11/0005,,16,2161,4061,"","Armi nuevo","","Reloj",,,13/09/0005
+458,382,"Alessi",14/09/0005,,,2,,,"","Se atrasa aprox, media hora al dia","","Reloj",,,14/09/0005
+459,383,"Cristian Dior",14/09/0005,,,33,,,"20/10/05
+
+ se lo lleva el representante.","Repaso","","reloj",,,14/09/0005
+460,384,"Frederic Constant",16/09/0005,18/11/0005,16/12/0005,15,3425,6425,"ojo no mojar
+ nº7519
+
+se lo lleba gullem sin talon","Repaso","","Reloj",,,16/09/0005
+461,385,"Barcelona cab",16/09/0005,,,15,,,"LLAMAR AL ESTAR POR LA MAÑANA","Repaso nuevo con garantia en el interior","","Reloj",,,16/09/0005
+462,386,"Seyko",17/09/0005,15/12/0005,,13,6203,8350," llamar al cliente
+
+el presup, es de 82,03e
+
+llamado al cliente  y contesta de que si","Pieza final del armi","","Reloj",,,17/09/0005
+463,387,"Pared",20/09/0005,,,13,,,"
+
+     llamar antes de ir  urgente","Repaso","","Reloj",,,
+464,387,"Anillo oro",20/09/0005,30/09/0005,30/09/0005,10,0,8,"","soldar al nº16","","jOIA",,,29/09/0005
+465,99,"Cadena y pulsera oro",27/09/0005,06/10/0005,15/10/0005,1,5,7,"Entregado sin talon a su madre y firma talon","Dejarlñas nuevas pulir","","Joia",,,27/09/0005
+466,309,"Pulsera r/n oro",28/09/0005,01/10/0005,18/10/0005,10,0,6,"","soldar","","Joia",,,28/09/0005
+467,388,"Collar oro amatistas",29/09/0005,01/10/0005,06/11/0005,10,0,25,"","Poner 3 asas a la medida que esta y dejarlo a 45 cnts","","Joia",,,29/09/0005
+468,389,"Fortis b42",29/09/0005,15/12/0005,19/12/0005,18,0,0,"","bisel y corona rosca","la corona es la segunda vez en 6 mmeses","Reloj",,,29/09/0005
+469,92,"Fortis pilot crono",29/09/0005,15/12/0005,,18,0,0,"","Le pusieron un boton y se fue solo","	garantia 2ªvez","Reloj",,,29/09/0005
+470,390,"Breil sra",30/09/0005,15/12/0005,15/12/0005,13,0,0,"","Repaso","con garantia en el interior","rELOJ",,,30/09/0005
+471,391,"Pendientes brill.R7N",30/09/0005,07/10/0005,10/11/0005,1,2,6,"","Tornillo 1","","Joia",,,30/09/0005
+472,392,"Tissot seastar",06/10/0005,,,35,,,"  25/11/05","Cristal","","Reloj",,,06/10/0005
+473,393,"Seyko",11/10/0005,,,12,,,"","Repaso aut.","","Reloj",,,11/10/0005
+474,393,"Tissot",11/10/0005,,,12,,,"","Gomas cristal","","Reloj",,,11/10/0005
+475,393,"Blumar cab",11/10/0005,18/11/0005,,2,2260,4260,"nº7521","tija y corona","","Reloj",,,11/10/0005
+476,395,"1Boton",11/10/0005,04/11/0005,18/11/0005,1,40,85,"","Piedras y hacer anillo al nº","","Joia",,,11/10/0005
+477,396,"Pulsera oro",13/10/0005,04/11/0005,,1,3,9,"","asa","","Joia",,,13/10/0005
+478,394,"D&G",14/10/0005,,,13,,,"20/10/05","Correa piel","","Reloj",,,14/10/0005
+479,397,"Viceroy 43460",14/10/0005,02/12/0005,,15,750,1450,"20/10/05","Correa piel","","Reloj",,,14/10/0005
+480,398,"Blau Mecier",14/10/0005,13/11/0005,07/12/0005,2,1680,34,"","Se atrasa","","Reloj",,,14/01/0005
+481,399,"Oro lotus sra.",16/10/0005,20/10/0005,22/10/0005,10,0,45,"entregado sin talon y frirma el sobre","Alargar las tres piezas","","Reloj",,,16/10/0005
+482,341,"sra oro Sandoz",19/10/0005,22/11/0005,,17,0,0,"   garantia en el interior
+
+ LLAMAR AL ESTAR","Se para cuando quiere se cambiaron 2 pilas","","Reloj",,,19/10/0005
+483,400,"Lotus cab",20/10/0005,15/12/0005,29/12/0005,16,1125,2225,"","Cierre","","Reloj",,,20/10/0005
+484,401,"Pulsera oro",23/10/0005,24/11/0005,24/11/0005,10,2,6,"","arreglar cierre","","Joia",,,23/01/0005
+485,402,"Pulsera",26/10/0005,24/11/0005,25/11/0005,1,2,6,"","asa y soldar","","Joia",,,26/10/0005
+486,403,"Pulsera",26/10/0005,24/11/0005,,1,0,12,"","Pasador","","Joia",,,26/10/0005
+487,404,"Aro oro",30/10/0005,24/11/0005,18/12/0005,10,0,10,"","soldar","","Joia",,,30/10/0005
+488,405,"Lotus",02/11/0005,15/12/0005,,16,1445,2845,"","Pieza filan del armi   y pegar nº 1","","Reloj",,,02/11/0005
+489,406,"corrrea sola",02/11/0005,,,16,,,"","Pieza final del armi  (MANDADO SOLO EL ARMI)","","Reloj",,,02/11/0005
+490,407,"Wenger",03/11/0005,,,37,,,"","Tija y corona","","Reloj",,,03/11/0005
+491,408,"sra Festina 6518",03/11/0005,,,23,,,"LLAMAR PARA DAR EL PRESUPUESTO","PRESUPUESTO","","Reloj",,,03/11/0005
+492,387,"Bolsillo basel pequeño",03/11/0005,,,2,,,"","Se para cuando quiere","","Reloj",,,03/11/0005
+493,409,"Pendientes oro",04/11/0005,,,1,,,"","rosca","","Joia",,,04/11/0005
+494,410,"Breiling",06/11/0005,,,2,,,"","Cristal","","Reloj",,,06/11/0005
+495,411,"Aro oro",09/11/0005,18/11/0005,,10,0,4,"","Arreglar cierres","","joia",,,09/11/0005
+496,412,"Pendientes bola oro",09/11/0005,18/11/0005,07/12/0005,10,0,7,"","Roscas","","Joia",,,09/11/0005
+497,413,"Sra, lotus",09/11/0005,,,16,,,"","Tija y corona","","Reloj",,,09/11/0005
+498,414,"Despertador antiguo",10/11/0005,19/12/0005,19/12/0050,12,0,18,"
+
+     Entregado sin talon firma Angela canaves","Presupuesto","","Reloj",,,10/11/0005
+499,415,"Anillo oro alianza",12/11/0005,29/11/0005,03/12/0005,10,0,17,"","Al nº24","","Joia",,,12/11/0005
+500,416,"Anillo oro",14/11/0005,,,1,,,"","Poner Piedra / ojo esta rota","","Joia",,,
+501,417,"Pulsera oro",16/11/0005,18/11/0005,18/11/0005,10,0,6,"","soldar","","Joia",,,16/11/0005
+502,285,"Viceroy sra",19/11/0005,,,12,,,"","Correa Cauxo","","Reloj",,,19/11/0005
+503,341,"Viceroy sra titanio",25/11/0005,,,15,,,"","Repaso (garantia) en el interior se para cuando quiere",""," Reloj",,,25/11/0005
+504,50,"SPEEDO  SCACG02",25/11/0005,,,20,,,"RELOJ NUEVO TIENDA","CORREA CAUXO","","Reloj",,,25/11/0005
+505,418,"Seyko",25/11/0005,,,13,,,"
+
+
+      Nº DEL ARREGLO SEYKO   3023457","Cristal","","Reloj",,,25/11/0005
+506,50,"VICEROY AUTOM.",25/11/0005,,,15,,,"","SE PARA","GARANTIA EN EL SOBRE","RELOJ",,,25/11/0005
+507,419,"Tag Heuer 4000 cab wf1111-0",25/11/0005,,,11,,,"","Presupuesto","Repaso esfera agujas estamque","Reloj",,,25/11/0005
+508,420,"Viceroy 46221",27/11/0005,,,15,,,"","Correa cauxo 2ª vez     Garantia en el interior","","Reloj",,,27/11/0005
+509,50,"vICEROY eSQUELETO",27/11/0005,,,15,,,"","AJUSTAR AUTOMATICO Y CRISTAL DE LA TAPA","","rELOJ",,,27/11/0005
+510,50,"FOSIL FILIP STAR",27/11/0005,29/12/0005,29/12/0005,13,0,0,"
+
+ LA ETIQUETA ESTA PUESTA","RELOJ NUEVO DE LA TIENDA NO FUNCIONAN LOS BOTONES","","RELOJ",,,27/11/0005
+511,421,"Fosil",29/11/0005,29/12/0005,,13,952,1450,"","Pila","","Reloj",,,29/11/0005
+512,422,"Movado",01/12/0005,,,1,,,"","Repaso se para","","Reloj",,,01/12/0005
+513,423,"Lotus",03/12/0005,,,16,,,"llamar al estar","2 piezas finales del armi","","Armi",,,03/12/0005
+514,415,"Pendientes 2 pares",03/12/0005,23/12/0005,,1,0,0,"
+
+   El Presp. esta en el sobre","Presupuesto cierre omega","","Joia",,,03/12/0005
+515,424,"Pulsera oro",04/12/0005,,,10,,,"","Mosqueton","","Joia",,,04/12/0005
+516,425,"Festina",16/12/0005,,,12,,,"","Repaso","","Reloj",,,
+517,426,"Collar oro cordon",16/12/0005,,,10,,,"","soldar","","Joia",,,16/12/0005
+518,427,"Lotus",17/12/0005,,,16,,,"","Cristal","","Reloj",,,17/12/0005
+519,428,"Gargantilla oro",17/12/0005,,,10,,,"","","","Joia",,,17/12/0005
+520,404,"Aro oro mallorquin media caña",18/12/0005,,,10,,,"","cadena de seguro","","Joia",,,18/12/0005
+521,429,"Pulsera oro",20/12/0005,,,10,,,"","Pasador","","Joia",,,20/12/0005
+522,430,"Pulsera colatopo oro",20/12/0005,,,10,,,"","Soldar asa final","","Joia",,,20/12/0005
+523,431,"Esprit",21/12/0005,,,13,,,"","Repaso","","Reloj",,,21/12/0005
+524,432,"1 pendiemte perla",29/12/0005,,,1,,,"","Hacer uno igual","","Joiua",,,
